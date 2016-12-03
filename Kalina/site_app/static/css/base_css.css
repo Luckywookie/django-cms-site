@@ -91,12 +91,34 @@ li.active-menu a{
     -webkit-border-radius: 150px;
     border-radius: 150px;
     margin-top: 20px;
-    padding: 45px 45px;
+    padding: 42px 40px;
     color: white;
     font-size: 2em;
     font-weight: bold;
-    margin-left: 35px;
+    margin-left: 50px;
 }
+
+.desc_row {
+    height: 200px;
+}
+
+.desc_row button{
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+}
+
+.next-button {
+    background: url(../images/icon_next.png) right no-repeat;
+    height: 50px;
+    width: 140px;
+    border: none;
+}
+
+.next-button:hover {
+    background-color: #f7f7f7;
+}
+
 
 .name-circle{
     padding-top: 20px;
@@ -129,15 +151,14 @@ li.active-menu a{
 
 #cont {
     padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
-    background-color: #f8f8f8;
 }
 
 #footer {
     height: 80px;
     text-align: center;
-    background-color: #f1f1f1;
-    padding: 30px;
+    margin: 30px;
 }
 
 .my-btn {

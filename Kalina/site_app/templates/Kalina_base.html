@@ -1,0 +1,170 @@
+{% load cms_tags menu_tags sekizai_tags %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kalina Hall Template</title>
+        <meta name="description" content="Kalina Hall site">
+        <meta name="author" content="Belykh Olga">
+        {% load staticfiles %}
+        <!-- Bootstrap Core CSS -->
+        <link href="{% static 'css/bootstrap.css' %}" rel=stylesheet>
+        <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-social.css' %}" />
+
+        <!-- Custom CSS -->
+        <link href="{% static 'css/base_css.css' %}" rel=stylesheet>
+
+        <!-- Bootstrap Core JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        {% render_block "css" %}
+    </head>
+    <body>
+    {% cms_toolbar %}
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-center" id="navigation" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                     <a class="navbar-brand" href="#"><span id="Kalina">КАЛИНА</span><span id="hall">hall</span></a>
+                </div>
+                <!-- Collect the nav links-->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        {% show_menu 0 0 0 1 %}
+                    </ul>
+                </div>
+            </div>
+            <!-- end navbar -->
+        </nav>
+        <!-- Page Content -->
+        <div class="container" id="content">
+            {% block content %}
+            <!-- Slider -->
+            <div class="row">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="line-indicators"></div>
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="{% static 'slider/slider_2.jpg' %}" alt="Second">
+                    </div>
+
+                    <div class="item">
+                        <img src="{% static 'slider/img_second.jpg' %}" alt="First">
+                    </div>
+
+                    <div class="item">
+                        <img src="{% static 'slider/slider_1.jpg' %}" alt="Second">
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- Icons and Text Rows -->
+            <div class="row row-circle">
+               <div class="container" id="rows">
+                   <div class="col-md-12">
+                       <img src="{% static 'images/icon.png' %}">
+                       <h2>БИЗНЕС-ЦЕНТР</h2>
+                       <hr class="hr">
+                   </div>
+                    <div class="col-md-3">
+                        <div class="circle-item">90%</div>
+                        <p class="name-circle">Mailroom Clerks</p>
+                        <p>Text text text text text text</p>
+                        <button>more</button>
+                    </div>
+                    <div class="col-md-3 row-circle">
+                        <div class="circle-item">80%</div>
+                        <p class="name-circle">Contacts Administrators</p>
+                        <p>Text text text text text text</p>
+                        more <button>></button>
+                    </div>
+                    <div class="col-md-3 row-circle">
+                        <div class="circle-item">60%</div>
+                        <p class="name-circle">Administrative Assistants</p>
+                        <p>Text text text text text text</p>
+                        <button>more</button>
+                    </div>
+                    <div class="col-md-3 row-circle">
+                        <div class="circle-item">50%</div>
+                        <p class="name-circle">Buisness Managment</p>
+                        <p>Text text text text text text</p>
+                        <button>more</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Oppotunities -->
+            <div class="row" id="block">
+                <div class="col-md-6 column-1">
+                    {% placeholder opportunity %}
+                </div>
+                <div class="col-md-6 column-2">
+                    <div class="news">
+                        {% placeholder news %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contacts -->
+            <div class="row">
+                 <div class="container" id="cont">
+                   <div class="col-md-12">
+                       <img src="{% static 'images/icon.png' %}">
+                       <h2>КОНТАКТЫ</h2>
+                       <hr class="hr">
+                   </div>
+                    <div class="col-md-4 mini-block">
+                        {% placeholder address %}
+                    </div>
+                    <div class="col-md-4 mini-block">
+                        {% placeholder phone %}
+                    </div>
+                    <div class="col-md-4 mini-block">
+                        {% placeholder email %}
+                    </div>
+                     <div class="col-md-12 map">
+                        {% placeholder maps %}
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Footer -->
+            <!-- Footer -->
+            <div class="row" id="footer">
+               <a class="btn btn-social-icon btn-xs btn-twitter my-btn">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                <a class="btn btn-social-icon btn-xs btn-google my-btn">
+                    <span class="fa fa-google"></span>
+                </a>
+                <a class="btn btn-social-icon btn-xs btn-vk my-btn">
+                    <span class="fa fa-vk"></span>
+                </a>
+                <a class="btn btn-social-icon btn-xs btn-facebook my-btn">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <p>@2016</p>
+            </div>
+        </div>
+        </div>
+    {% endblock content %}
+    {% render_block "js" %}
+    </body>
+</html>

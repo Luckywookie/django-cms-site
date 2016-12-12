@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Kalina Hall Template</title>
+        <title>Kalina Hall</title>
         <meta name="description" content="Kalina Hall site">
         <meta name="author" content="Belykh Olga">
         {% load staticfiles %}
@@ -16,6 +16,12 @@
         <!-- Custom CSS -->
         <link href="{% static 'css/base_css.css' %}" rel=stylesheet>
 
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400|Open+Sans:300|Poiret+One" rel="stylesheet">
+
+        <!-- IcoFont -->
+        <link href="{% static 'css/icofont.css' %}" rel="stylesheet">
+
         <!-- Bootstrap Core JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -23,6 +29,7 @@
     </head>
     <body>
     {% cms_toolbar %}
+    <div class="container" id="content">
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-center" id="navigation" role="navigation">
             <div class="container">
@@ -32,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                     <a class="navbar-brand" href="#"><span id="Kalina">КАЛИНА</span><span id="hall">hall</span></a>
+                     <a class="navbar-brand" href="#"><span class="hall red">Kа</span><span class="Kalina red">лин</span><span class="hall red">а</span><span class="hall grey">hall</span></a>
                 </div>
                 <!-- Collect the nav links-->
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -44,7 +51,6 @@
             <!-- end navbar -->
         </nav>
         <!-- Page Content -->
-        <div class="container" id="content">
             {% block content %}
             <!-- Slider -->
             <div class="row">
@@ -85,7 +91,7 @@
                    </div>
                     <div class="col-md-3 col-xs-6 row-circle">
                         <div class="circle-item">
-                            <img src="{% static 'images/icon_people_small.png' %}">
+                            <i class="icofont icofont-meeting-add"></i>
                         </div>
                         <div class="desc_row">
                             <p class="name-circle">Конференц-зал</p>
@@ -95,7 +101,7 @@
                     </div>
                     <div class="col-md-3 col-xs-6 row-circle">
                         <div class="circle-item">
-                            <img src="{% static 'images/icon_hands_small.png' %}">
+                            <i class="icofont icofont-holding-hands"></i>
                         </div>
                         <div class="desc_row">
                             <p class="name-circle">Аренда для бизнеса</p>
@@ -105,7 +111,7 @@
                     </div>
                     <div class="col-md-3 col-xs-6 row-circle">
                         <div class="circle-item">
-                            <img src="{% static 'images/icon_man_small.png' %}">
+                            <i class="icofont icofont-business-man"></i>
                         </div>
                         <div class="desc_row">
                             <p class="name-circle">Выгодные условия</p>
@@ -115,7 +121,7 @@
                     </div>
                     <div class="col-md-3 col-xs-6 row-circle">
                         <div class="circle-item">
-                            <img src="{% static 'images/icon_finger_small.png' %}">
+                            <i class="icofont icofont-hand-drag1"></i>
                         </div>
                         <div class="desc_row">
                             <p class="name-circle">Выбор для бизнеса</p>

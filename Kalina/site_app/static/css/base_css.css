@@ -1,7 +1,14 @@
+
+
 #content {
     margin-top: 0px;
     color: #505050;
-    font-family: sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.news img {
+    margin: 20px;
 }
 
 #navigation {
@@ -14,14 +21,24 @@
     padding-left: 50px;
 }
 
-#Kalina {
-    font-size: 4em;
+.red {
     color: #f94312 !important;
 }
 
-#hall {
-    font-size: 4em;
-    color: #505050 !important;
+.Kalina {
+    font-size: 5em;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.grey {
+    color: #505050 !important;    
+}
+
+.hall {
+    font-size: 4.3em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 #myNavbar {
@@ -67,6 +84,11 @@ li.active-menu a{
     width: 100%;
 }
 
+.container h2, .container h4{
+    width: 100%;
+    font-weight: bold;
+}
+
 #rows {
     width: 80%;
     margin: auto;
@@ -77,6 +99,10 @@ li.active-menu a{
 .row-circle{
     background-color: #f7f7f7;
     text-align: center;
+}
+
+.row-circle h2{
+    font-weight: bold;
 }
 
 .row {
@@ -95,7 +121,11 @@ li.active-menu a{
     color: white;
     font-size: 2em;
     font-weight: bold;
-    margin-left: 50px;
+    margin: auto;
+}
+
+.icofont {
+    font-size: 45px;
 }
 
 .desc_row {
@@ -105,7 +135,7 @@ li.active-menu a{
 .desc_row button{
     position: absolute;
     bottom: 0px;
-    left: 60px;
+    left: 25%;
 }
 
 .next-button {
@@ -127,6 +157,7 @@ li.active-menu a{
     color: #505050;
     text-align: center;
     padding-left: 0px;
+    font-weight: bold;
 }
 
 .carousel-inner > .item > img,

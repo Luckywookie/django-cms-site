@@ -156,11 +156,21 @@ INSTALLED_APPS = (
     'aldryn_people',
     'aldryn_reversion',
     'aldryn_translation_tools',
+    'aldryn_bootstrap3',
     'parler',
     'sortedm2m',
     'taggit',
     'reversion',
+    # 'cmsplugin_gallery',
+
 )
+
+# DJANGOCMS_UNITEGALLERY_CONFIG = {
+#     'THUMBNAIL_ENABLED': False,
+#     'THUMBNAIL_MAX_WIDTH': 250,
+#     'THUMBNAIL_MAX_HEIGHT': 250,
+#     'THUMBNAIL_PRESERVE_RATIO': False,
+# }
 
 LANGUAGES = (
     ## Customize this

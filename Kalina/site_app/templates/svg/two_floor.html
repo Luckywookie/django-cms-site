@@ -1,0 +1,906 @@
+{% load i18n staticfiles sekizai_tags cms_tags %}
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500.542 252.687" style="enable-background:new 0 0 500.542 252.687;" xml:space="preserve">
+<style type="text/css">
+	.s2t0{fill:none;}
+	.s2t1{fill:#424242;}
+	.s2t2{fill:#EDEDED;}
+	.s2t3{fill:#7A7A7A;}
+	.s2t4{fill:#F9BBAA;stroke:#CC9687;stroke-miterlimit:10;}
+	.s2t5{fill:#EFEBEA;}
+	.s2t6{fill:#EFEBEA;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-miterlimit:10;}
+	.s2t7{fill:#5E5E5E;}
+	.s2t8{fill:#C9C7C7;}
+	.s2t9{fill:#777676;}
+	.s2t10{display:none;fill:#C9C7C7;}
+	.s2t11{display:none;}
+	.s2t12{display:inline;fill:#EDEDED;}
+	.s2t13{display:inline;}
+	.s2t14{fill:#ED8620; opacity: 0;}
+	.s2t15{fill:#F44F0F;}
+	.s2t16{font-family:'MyriadPro-Regular';}
+	.s2t17{font-size:12px;}
+	.s2t18{fill:#FCFAFA;}
+	.s2t19{font-size:8px;}
+	.s2t20{font-family:'MyriadPro-It';}
+	.s2t21{font-size:7px;}
+	.s2t22{fill:none;stroke:#D35E0F;}
+	.s2t23{fill:none;stroke:#777777;stroke-width:0.25;}
+	.s2t24{fill:#616161;}
+	.s2t25{display:none;fill:none;stroke:#616262;stroke-width:2;}
+	.s2t26{fill:#616262;}
+	.s2t27{display:none;fill:#616161;}
+	.s2t28{display:none;fill:#C9C9C9;}
+	.s2t29{fill:none;stroke:#616262;}
+	
+	.s2t00{
+        fill:#F2BC44;
+        fill-opacity:0;
+    }
+
+    .s14{
+        fill:#F2BCCC;
+        fill-opacity:0.3;
+    }
+
+    .s2t00:hover {
+        fill: {% if not news.is_free %} yellow {% else %} red {% endif %};
+        fill-opacity: 0.5;
+    }
+
+    .tooltip {
+            pointer-events:none;
+            opacity:0;
+            transition: opacity 0.3s;
+        }
+
+    div.fixed {
+        position:fixed;
+    }
+
+    g.tooltip rect {
+        fill: white;
+        fill-opacity: 0.7;
+    }
+
+    g.tooltip polygon {
+        fill: white;
+        fill-opacity: 0.7;
+    }
+
+    g.tooltip polyline {
+        fill: white;
+        fill-opacity: 0.7;
+    }
+
+    .s2t00:hover + g.tooltip.css {
+      opacity:1;
+    }
+
+    svg {
+        width: 110%;
+        overflow: visible;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    #Area {
+        font-size: 0.5em;
+        opacity: 0.9;
+    }
+</style>
+<g id="Walls">
+	<line class="s2t0" x1="199.875" y1="252.687" x2="266.042" y2="252.687"/>
+	<line class="s2t0" x1="199.875" y1="247.094" x2="266.042" y2="247.094"/>
+	<line class="s2t0" x1="199.875" y1="249.437" x2="266.042" y2="249.375"/>
+	<line class="s2t1" x1="199.875" y1="251.187" x2="266.042" y2="251.187"/>
+	<g>
+		<polygon class="s2t2" points="83.875,57.937 140.625,57.937 140.625,90.437 420.875,90.187 420.875,34.437 446.792,34.437
+			446.75,97.312 474.125,97.437 474.125,126.937 83.875,127.156 		"/>
+		<g>
+			<path class="s2t3" d="M446.541,34.687l-0.02,30.927L446.5,97.062l0,0.498l0.498,0.002l26.877,0.123v29.003l-389.75,0.218V58.187
+				h56.25v32v0.5l0.5,0l279.75-0.25l0.5,0v-0.5v-55.25H446.541 M447.042,34.187c-8.806,0-17.611,0-26.417,0v55.75l-279.75,0.25
+				v-32.5h-57.25v69.719c130.25-0.073,260.5-0.146,390.75-0.219c0-10,0-20,0-30c-9.125-0.042-18.25-0.083-27.375-0.125
+				C447.014,76.104,447.028,55.146,447.042,34.187L447.042,34.187z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="9.792" y="89.187" class="s2t2" width="71.083" height="37.969"/>
+		<path class="s2t3" d="M80.625,89.437v37.469H10.042V89.437H80.625 M81.125,88.937H9.542v38.469h71.583V88.937L81.125,88.937z"/>
+	</g>
+	<g>
+		<rect x="9.792" y="10.187" class="s2t2" width="23.083" height="76"/>
+		<path class="s2t3" d="M32.625,10.437v75.5H10.042v-75.5H32.625 M33.125,9.937H9.542v76.5h23.583V9.937L33.125,9.937z"/>
+	</g>
+	<g>
+		<rect x="83.875" y="10.187" class="s2t2" width="75.643" height="45"/>
+		<path class="s2t3" d="M159.268,10.437v44.5H84.125v-44.5H159.268 M159.768,9.937H83.625v45.5h76.143V9.937L159.768,9.937z"/>
+	</g>
+	<g>
+		<rect x="142.75" y="58.021" class="s2t2" width="25.458" height="29.989"/>
+		<path class="s2t3" d="M167.958,58.271v29.49H143v-29.49H167.958 M168.458,57.771H142.5v30.49h25.958V57.771L168.458,57.771z"/>
+	</g>
+	<g>
+		<rect x="170.208" y="57.687" class="s2t2" width="22.333" height="30.323"/>
+		<path class="s2t3" d="M192.292,57.937V87.76h-21.833V57.937H192.292 M192.792,57.437h-22.833V88.26h22.833V57.437L192.792,57.437z"
+			/>
+	</g>
+	<g>
+		<rect x="448.875" y="9.937" class="s2t2" width="41.948" height="84.625"/>
+		<path class="s2t3" d="M490.573,10.187v84.125h-41.448V10.187H490.573 M491.073,9.687h-42.448v85.125h42.448V9.687L491.073,9.687z"
+			/>
+	</g>
+	<g>
+		<rect x="417.625" y="130.102" class="s2t2" width="56.5" height="36.96"/>
+		<path class="s2t3" d="M473.875,130.352v36.46h-56v-36.46H473.875 M474.375,129.852h-57v37.46h57V129.852L474.375,129.852z"/>
+	</g>
+	<g>
+		<rect x="477" y="97.062" class="s2t2" width="13.823" height="69.125"/>
+		<path class="s2t3" d="M490.573,97.312v68.625H477.25V97.312H490.573 M491.073,96.812H476.75v69.625h14.323V96.812L491.073,96.812z"
+			/>
+	</g>
+	<g>
+		<rect x="87" y="127.281" class="s2t2" width="15.354" height="2.781"/>
+		<path class="s2t3" d="M102.229,127.406v2.531H87.125v-2.531H102.229 M102.479,127.156H86.875v3.031h15.604V127.156L102.479,127.156
+			z"/>
+	</g>
+	<g>
+		<rect x="204" y="155.281" class="s2t2" width="15.354" height="2.781"/>
+		<path class="s2t3" d="M219.229,155.406v2.531h-15.104v-2.531H219.229 M219.479,155.156h-15.604v3.031h15.604V155.156
+			L219.479,155.156z"/>
+	</g>
+	<g>
+		<rect x="446.762" y="78.193" class="s2t2" width="2.113" height="14.875"/>
+		<path class="s2t3" d="M448.75,78.318v14.625h-1.863V78.318H448.75 M449,78.068h-2.363v15.125H449V78.068L449,78.068z"/>
+	</g>
+	<g>
+		<rect x="81.006" y="101.719" class="s2t2" width="2.494" height="14.875"/>
+		<path class="s2t3" d="M83.375,101.844v14.625h-2.244v-14.625H83.375 M83.625,101.594h-2.744v15.125h2.744V101.594L83.625,101.594z"
+			/>
+	</g>
+	<g>
+		<rect x="81.006" y="73" class="s2t2" width="2.494" height="11.625"/>
+		<path class="s2t3" d="M83.375,73.125V84.5h-2.244V73.125H83.375 M83.625,72.875h-2.744V84.75h2.744V72.875L83.625,72.875z"/>
+	</g>
+	<g>
+		<rect x="168.583" y="127.02" class="s2t2" width="17.969" height="2.781"/>
+		<path class="s2t3" d="M186.427,127.145v2.531h-17.719v-2.531H186.427 M186.677,126.895h-18.219v3.031h18.219V126.895
+			L186.677,126.895z"/>
+	</g>
+	<g>
+		<rect x="206.573" y="127.02" class="s2t2" width="18.302" height="2.781"/>
+		<path class="s2t3" d="M224.75,127.145v2.531h-18.052v-2.531H224.75 M225,126.895h-18.552v3.031H225V126.895L225,126.895z"/>
+	</g>
+</g>
+<g id="Rooms">
+	<rect x="199.875" y="129.852" class="s2t4" width="68.945" height="111.648"/>
+	<rect x="9.875" y="130.187" class="s2t4" width="98.5" height="111.313"/>
+	<rect x="234.347" y="10.187" class="s2t4" width="33.028" height="77.75"/>
+	<rect x="269.875" y="10.187" class="s2t4" width="36.75" height="77.75"/>
+	<rect x="309" y="10.187" class="s2t4" width="33.875" height="77.75"/>
+	<rect x="345.5" y="10.187" class="s2t4" width="38.25" height="77.75"/>
+	<rect x="386.375" y="10.187" class="s2t4" width="32.125" height="77.75"/>
+	<g>
+		<rect x="200" y="242.219" class="s2t5" width="65.917" height="6.094"/>
+		<path d="M265.792,242.344v5.844h-65.667v-5.844H265.792 M266.042,242.094h-66.167v6.344h66.167V242.094L266.042,242.094z"/>
+	</g>
+	<rect x="112.167" y="241.969" class="s2t6" width="78.042" height="6.344"/>
+	<g>
+		<rect x="275.5" y="242.219" class="s2t5" width="22.726" height="6.094"/>
+		<path d="M298.101,242.344v5.844h-22.476v-5.844H298.101 M298.351,242.094h-22.976v6.344h22.976V242.094L298.351,242.094z"/>
+	</g>
+	<g>
+		<rect x="313.5" y="242.219" class="s2t5" width="22.726" height="6.094"/>
+		<path d="M336.101,242.344v5.844h-22.476v-5.844H336.101 M336.351,242.094h-22.976v6.344h22.976V242.094L336.351,242.094z"/>
+	</g>
+	<g>
+		<rect x="353.143" y="242.219" class="s2t5" width="19.75" height="6.094"/>
+		<path d="M372.768,242.344v5.844h-19.5v-5.844H372.768 M373.018,242.094h-20v6.344h20V242.094L373.018,242.094z"/>
+	</g>
+	<g>
+		<rect x="390.643" y="242.219" class="s2t5" width="19.75" height="6.094"/>
+		<path d="M410.268,242.344v5.844h-19.5v-5.844H410.268 M410.518,242.094h-20v6.344h20V242.094L410.518,242.094z"/>
+	</g>
+	<g>
+		<rect x="427.143" y="242.219" class="s2t5" width="19.75" height="6.094"/>
+		<path d="M446.768,242.344v5.844h-19.5v-5.844H446.768 M447.018,242.094h-20v6.344h20V242.094L447.018,242.094z"/>
+	</g>
+	<g>
+		<rect x="466.476" y="242.219" class="s2t5" width="17.607" height="6.094"/>
+		<path d="M483.958,242.344v5.844h-17.357v-5.844H483.958 M484.208,242.094h-17.857v6.344h17.857V242.094L484.208,242.094z"/>
+	</g>
+	<rect x="32.063" y="242.094" class="s2t6" width="71.271" height="6.344"/>
+	<g>
+		<rect x="225.385" y="3.719" class="s2t5" width="31.354" height="6.094"/>
+		<g>
+			<path class="s2t7" d="M256.615,3.844v5.844H225.51V3.844H256.615 M256.865,3.594H225.26v6.344h31.604V3.594L256.865,3.594z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="273.396" y="3.719" class="s2t5" width="28.854" height="6.094"/>
+		<path d="M302.125,3.844v5.844h-28.604V3.844H302.125 M302.375,3.594h-29.104v6.344h29.104V3.594L302.375,3.594z"/>
+	</g>
+	<g>
+		<rect x="313.75" y="3.719" class="s2t5" width="27.25" height="6.094"/>
+		<path d="M340.875,3.844v5.844h-27V3.844H340.875 M341.125,3.594h-27.5v6.344h27.5V3.594L341.125,3.594z"/>
+	</g>
+	<g>
+		<rect x="350.75" y="3.719" class="s2t5" width="27.5" height="6.094"/>
+		<path d="M378.125,3.844v5.844h-27.25V3.844H378.125 M378.375,3.594h-27.75v6.344h27.75V3.594L378.375,3.594z"/>
+	</g>
+	<g>
+		<rect x="390.375" y="3.719" class="s2t5" width="21.75" height="6.094"/>
+		<path d="M412,3.844v5.844h-21.5V3.844H412 M412.25,3.594h-22v6.344h22V3.594L412.25,3.594z"/>
+	</g>
+	<g>
+		<rect x="466.188" y="3.969" class="s2t5" width="20.333" height="6.094"/>
+		<path d="M486.396,4.094v5.844h-20.083V4.094H486.396 M486.646,3.844h-20.583v6.344h20.583V3.844L486.646,3.844z"/>
+	</g>
+	<g>
+		<rect x="420.875" y="9.937" class="s2t2" width="25.812" height="22.688"/>
+		<path class="s2t3" d="M446.438,10.187v22.188h-25.313V10.187H446.438 M446.938,9.687h-26.313v23.188h26.313V9.687L446.938,9.687z"
+			/>
+	</g>
+	<polyline class="s2t4" points="162.375,9.937 231.897,10.187 231.897,87.937 195.208,87.937 194.708,55.437 162.375,55.437
+		162.375,9.937 	"/>
+	<g>
+		<rect x="193.5" y="3.719" class="s2t5" width="16.927" height="6.094"/>
+		<g>
+			<path class="s2t7" d="M210.302,3.844v5.844h-16.677V3.844H210.302 M210.552,3.594h-17.177v6.344h17.177V3.594L210.552,3.594z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="164.042" y="3.719" class="s2t5" width="22.472" height="6.094"/>
+		<path class="s2t7" d="M186.389,3.844v5.844h-22.222V3.844H186.389 M186.639,3.594h-22.722v6.344h22.722V3.594L186.639,3.594z"/>
+	</g>
+	<rect x="112.167" y="129.852" class="s2t4" width="83.958" height="111.48"/>
+	<g>
+		<rect x="283.267" y="127.094" class="s2t2" width="20.75" height="2.633"/>
+		<g>
+			<path class="s2t3" d="M303.892,127.219v2.383h-20.5v-2.383H303.892 M304.142,126.969h-21v2.883h21V126.969L304.142,126.969z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="326.375" y="88.219" class="s2t2" width="13.25" height="1.973"/>
+		<g>
+			<path class="s2t3" d="M339.5,88.344v1.723h-13v-1.723H339.5 M339.75,88.094h-13.5v2.223h13.5V88.094L339.75,88.094z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="356.438" y="88.219" class="s2t2" width="13.25" height="1.973"/>
+		<g>
+			<path class="s2t3" d="M369.563,88.344v1.723h-13v-1.723H369.563 M369.813,88.094h-13.5v2.223h13.5V88.094L369.813,88.094z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="395.813" y="88.187" class="s2t2" width="13.25" height="2.004"/>
+		<g>
+			<path class="s2t3" d="M408.938,88.312v1.754h-13v-1.754H408.938 M409.188,88.062h-13.5v2.254h13.5V88.062L409.188,88.062z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="280.267" y="88.219" class="s2t2" width="13.25" height="1.973"/>
+		<g>
+			<path class="s2t3" d="M293.392,88.344v1.723h-13v-1.723H293.392 M293.642,88.094h-13.5v2.223h13.5V88.094L293.642,88.094z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="238.292" y="88.294" class="s2t2" width="13.25" height="1.973"/>
+		<g>
+			<path class="s2t3" d="M251.417,88.419v1.723h-13v-1.723H251.417 M251.667,88.169h-13.5v2.223h13.5V88.169L251.667,88.169z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="203.709" y="88.219" class="s2t2" width="13.25" height="1.973"/>
+		<g>
+			<path class="s2t3" d="M216.833,88.344v1.723h-13v-1.723H216.833 M217.083,88.094h-13.5v2.223h13.5V88.094L217.083,88.094z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="175.625" y="88.062" class="s2t2" width="13.25" height="2.114"/>
+		<g>
+			<path class="s2t3" d="M188.75,88.187v1.864h-13v-1.864H188.75 M189,87.937h-13.5v2.364H189V87.937L189,87.937z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="149.542" y="88.203" class="s2t2" width="13.25" height="2.155"/>
+		<g>
+			<path class="s2t3" d="M162.667,88.328v1.905h-13v-1.905H162.667 M162.917,88.078h-13.5v2.405h13.5V88.078L162.917,88.078z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="121.485" y="55.312" class="s2t2" width="13.25" height="2.563"/>
+		<g>
+			<path class="s2t3" d="M134.61,55.437v2.313h-13v-2.313H134.61 M134.86,55.187h-13.5V58h13.5V55.187L134.86,55.187z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="92.464" y="55.187" class="s2t2" width="13.25" height="2.53"/>
+		<g>
+			<path class="s2t3" d="M105.589,55.312v2.28h-13v-2.28H105.589 M105.839,55.062h-13.5v2.78h13.5V55.062L105.839,55.062z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="427.42" y="32.312" class="s2t2" width="13.25" height="2"/>
+		<g>
+			<path class="s2t3" d="M440.545,32.437v1.75h-13v-1.75H440.545 M440.795,32.187h-13.5v2.25h13.5V32.187L440.795,32.187z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="427.445" y="127.062" class="s2t2" width="13.25" height="2.875"/>
+		<g>
+			<path class="s2t3" d="M440.57,127.187v2.625h-13v-2.625H440.57 M440.82,126.937h-13.5v3.125h13.5V126.937L440.82,126.937z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="452.16" y="127.062" class="s2t2" width="13.25" height="2.875"/>
+		<g>
+			<path class="s2t3" d="M465.285,127.187v2.625h-13v-2.625H465.285 M465.535,126.937h-13.5v3.125h13.5V126.937L465.535,126.937z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="14.708" y="86.312" class="s2t2" width="13.25" height="2.792"/>
+		<g>
+			<path class="s2t3" d="M27.833,86.437v2.542h-13v-2.542H27.833 M28.083,86.187h-13.5v3.042h13.5V86.187L28.083,86.187z"/>
+		</g>
+	</g>
+	<rect x="271.375" y="129.852" class="s2t4" width="79.25" height="112.242"/>
+	<polygon class="s2t4" points="354.042,129.852 414.604,129.852 414.604,170.281 488.208,170.281 488.208,242.094 354.042,242.094
+		"/>
+	<g>
+		<rect x="359.438" y="127.094" class="s2t2" width="20.75" height="2.634"/>
+		<g>
+			<path class="s2t3" d="M380.062,127.219v2.383h-20.5v-2.383H380.062 M380.312,126.969h-21v2.883h21V126.969L380.312,126.969z"/>
+		</g>
+	</g>
+</g>
+<g id="Windows">
+	<g>
+		<rect x="190.188" y="237.375" class="s2t8" width="9.719" height="10.937"/>
+		<path class="s2t9" d="M199.781,237.5v10.687h-9.469V237.5H199.781 M200.031,237.25h-9.969v11.187h9.969V237.25L200.031,237.25z"/>
+	</g>
+	<g>
+		<rect x="265.906" y="237.375" class="s2t8" width="9.563" height="10.937"/>
+		<path class="s2t9" d="M275.344,237.5v10.687h-9.313V237.5H275.344 M275.594,237.25h-9.813v11.187h9.813V237.25L275.594,237.25z"/>
+	</g>
+	<g>
+		<rect x="298.219" y="237.375" class="s2t8" width="15.313" height="10.937"/>
+		<path class="s2t9" d="M313.406,237.5v10.687h-15.063V237.5H313.406 M313.656,237.25h-15.563v11.187h15.563V237.25L313.656,237.25z"
+			/>
+	</g>
+	<g>
+		<rect x="336.25" y="237.375" class="s2t8" width="16.812" height="10.937"/>
+		<path class="s2t9" d="M352.938,237.5v10.687h-16.563V237.5H352.938 M353.188,237.25h-17.063v11.187h17.063V237.25L353.188,237.25z"
+			/>
+	</g>
+	<g>
+		<rect x="372.875" y="237.375" class="s2t8" width="17.75" height="10.937"/>
+		<path class="s2t9" d="M390.5,237.5v10.687H373V237.5H390.5 M390.75,237.25h-18v11.187h18V237.25L390.75,237.25z"/>
+	</g>
+	<g>
+		<rect x="410.417" y="237.375" class="s2t8" width="16.666" height="10.937"/>
+		<path class="s2t9" d="M426.958,237.5v10.687h-16.417V237.5H426.958 M427.208,237.25h-16.917v11.187h16.917V237.25L427.208,237.25z"
+			/>
+	</g>
+	<g>
+		<rect x="446.875" y="237.275" class="s2t8" width="19.583" height="11.137"/>
+		<path class="s2t9" d="M466.333,237.4v10.887H447V237.4H466.333 M466.583,237.15H446.75v11.387h19.833V237.15L466.583,237.15z"/>
+	</g>
+	<g>
+		<rect x="103.458" y="237.781" class="s2t8" width="8.583" height="10.688"/>
+		<path class="s2t9" d="M111.917,237.906v10.438h-8.333v-10.438H111.917 M112.167,237.656h-8.833v10.938h8.833V237.656
+			L112.167,237.656z"/>
+	</g>
+	<rect x="107.75" y="127.406" class="s2t10" width="1.125" height="114.094"/>
+	<rect x="9.542" y="127.406" class="s2t10" width="80.5" height="2.781"/>
+	<rect x="102.125" y="127.406" class="s2t10" width="189.187" height="2.031"/>
+	<rect x="102.125" y="127.406" class="s2t10" width="189.187" height="2.781"/>
+	<rect x="269.125" y="130.187" class="s2t10" width="2.868" height="111.313"/>
+	<g>
+		<rect x="256.792" y="0.125" class="s2t8" width="16.552" height="9.687"/>
+		<path class="s2t9" d="M273.219,0.25v9.437h-16.302V0.25H273.219 M273.469,0h-16.802v9.937h16.802V0L273.469,0z"/>
+	</g>
+	<g>
+		<rect x="302.281" y="0.125" class="s2t8" width="11.406" height="9.687"/>
+		<path class="s2t9" d="M313.563,0.25v9.437h-11.156V0.25H313.563 M313.813,0h-11.656v9.937h11.656V0L313.813,0z"/>
+	</g>
+	<g>
+		<rect x="341.063" y="0.125" class="s2t8" width="9.688" height="9.687"/>
+		<path class="s2t9" d="M350.625,0.25v9.437h-9.438V0.25H350.625 M350.875,0h-9.938v9.937h9.938V0L350.875,0z"/>
+	</g>
+	<g>
+		<rect x="378.219" y="0.125" class="s2t8" width="12.094" height="9.687"/>
+		<path class="s2t9" d="M390.188,0.25v9.437h-11.844V0.25H390.188 M390.438,0h-12.344v9.937h12.344V0L390.438,0z"/>
+	</g>
+	<g>
+		<rect x="412.125" y="0.125" class="s2t8" width="54.031" height="9.687"/>
+		<path class="s2t9" d="M466.031,0.25v9.437H412.25V0.25H466.031 M466.281,0H412v9.937h54.281V0L466.281,0z"/>
+	</g>
+	<g>
+		<polygon class="s2t8" points="0.125,248.609 0.125,0.125 164,0.125 164,9.812 9.417,9.812 9.417,237.922 32.042,237.922
+			32.042,248.609 		"/>
+		<path class="s2t9" d="M163.875,0.25v9.437H9.542h-0.25v0.25v227.859v0.25h0.25h22.375v10.438H0.25v-10.359v-0.328V0.25h9.292
+			H163.875 M164.125,0H9.542H0v237.797v0.328v10.609h32.167v-10.938H9.542V9.937h154.583V0L164.125,0z"/>
+	</g>
+	<g>
+		<rect x="210.458" y="0.125" class="s2t8" width="14.875" height="9.687"/>
+		<path class="s2t9" d="M225.208,0.25v9.437h-14.625V0.25H225.208 M225.458,0h-15.125v9.937h15.125V0L225.458,0z"/>
+	</g>
+	<g>
+		<rect x="186.563" y="0.125" class="s2t8" width="6.896" height="9.687"/>
+		<path class="s2t9" d="M193.333,0.25v9.437h-6.646V0.25H193.333 M193.583,0h-7.146v9.937h7.146V0L193.583,0z"/>
+	</g>
+	<g>
+		<polygon class="s2t8" points="484.083,248.412 484.083,237.275 491.198,237.275 491.198,10.062 486.531,10.062 486.531,0.375
+			500.25,0.375 500.25,237.275 500.417,237.275 500.417,248.412 		"/>
+		<path class="s2t9" d="M500.125,0.5v9.437v0.25V237.15v0.25h0.167v10.887h-16.083V237.4h6.865h0.25v-0.25V10.187v-0.25h-0.25h-4.417
+			V0.5H500.125 M500.375,0.25h-13.969v9.937h4.667V237.15h-7.115v11.387h16.583V237.15h-0.167V10.187v-0.25V0.25L500.375,0.25z"/>
+	</g>
+	<g>
+		<rect x="21.208" y="158.875" class="s2t2" width="9.167" height="9.167"/>
+		<g>
+			<path class="s2t3" d="M30.125,159.125v8.667h-8.667v-8.667H30.125 M30.625,158.625h-9.667v9.667h9.667V158.625L30.625,158.625z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="102.729" y="158.875" class="s2t2" width="9.167" height="9.167"/>
+		<g>
+			<path class="s2t3" d="M111.646,159.125v8.667h-8.667v-8.667H111.646 M112.146,158.625h-9.667v9.667h9.667V158.625L112.146,158.625
+				z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="190.458" y="158.875" class="s2t2" width="9.167" height="9.167"/>
+		<g>
+			<path class="s2t3" d="M199.375,159.125v8.667h-8.667v-8.667H199.375 M199.875,158.625h-9.667v9.667h9.667V158.625L199.875,158.625
+				z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="262.792" y="158.875" class="s2t2" width="9.166" height="9.167"/>
+		<g>
+			<path class="s2t3" d="M271.708,159.125v8.667h-8.667v-8.667H271.708 M272.208,158.625h-9.667v9.667h9.667V158.625L272.208,158.625
+				z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="344.906" y="158.875" class="s2t2" width="9.167" height="9.167"/>
+		<g>
+			<path class="s2t3" d="M353.823,159.125v8.667h-8.667v-8.667H353.823 M354.323,158.625h-9.667v9.667h9.667V158.625L354.323,158.625
+				z"/>
+		</g>
+	</g>
+	<g class="s2t11">
+		<rect x="414.854" y="158.875" class="s2t12" width="9.166" height="9.167"/>
+		<g class="s2t13">
+			<path class="s2t3" d="M423.771,159.125v8.667h-8.667v-8.667H423.771 M424.271,158.625h-9.667v9.667h9.667V158.625L424.271,158.625
+				z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="102.729" y="69.875" class="s2t2" width="9.167" height="9.166"/>
+		<g>
+			<path class="s2t3" d="M111.646,70.125v8.667h-8.667v-8.667H111.646 M112.146,69.625h-9.667v9.667h9.667V69.625L112.146,69.625z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="411.792" y="81.047" class="s2t2" width="9.166" height="9.167"/>
+		<g>
+			<path class="s2t3" d="M420.708,81.297v8.667h-8.667v-8.667H420.708 M421.208,80.797h-9.667v9.667h9.667V80.797L421.208,80.797z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="343.125" y="81.047" class="s2t2" width="9.166" height="9.167"/>
+		<g>
+			<path class="s2t3" d="M352.042,81.297v8.667h-8.667v-8.667H352.042 M352.542,80.797h-9.667v9.667h9.667V80.797L352.542,80.797z"/>
+		</g>
+	</g>
+	<g>
+		<rect x="267.625" y="81.047" class="s2t2" width="9.167" height="9.167"/>
+		<g>
+			<path class="s2t3" d="M276.542,81.297v8.667h-8.667v-8.667H276.542 M277.042,80.797h-9.667v9.667h9.667V80.797L277.042,80.797z"/>
+		</g>
+	</g>
+</g>
+<g id="Selected">
+	<g>
+		<rect x="386.375" y="9.993" class="s2t14" width="32.125" height="77.75"/>
+	</g>
+	<g id="Слой215">
+        <rect x="386.375" y="9.993" class="s2t00" width="32.125" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="270" y="0" width="12em" height="2em"/>
+          <text y="0" x="293" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_215 %}</text>
+        </g>
+    </g>
+	<g>
+		<polygon class="s2t14" points="354.125,130.124 414.688,130.124 414.688,170.552 488.292,170.552 488.292,242.365 354.125,242.365
+					"/>
+	</g>
+	<g id="Слой218">
+        <polygon class="s2t00" points="354.125,130.124 414.688,130.124 414.688,170.552 488.292,170.552 488.292,242.365 354.125,242.365"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="250" y="140" width="12em" height="2em"/>
+          <text y="140" x="273" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_218 %}</text>
+        </g>
+	</g>
+	<g>
+		<rect x="271.375" y="129.555" class="s2t14" width="79.25" height="112.242"/>
+	</g>
+    <g id="Слой219">
+        <rect x="271.375" y="129.555" class="s2t00" width="79.25" height="112.242"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="250" y="140" width="12em" height="2em"/>
+          <text y="140" x="270" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_219 %}</text>
+        </g>
+    </g>
+	<g>
+		<rect x="9.875" y="130.421" class="s2t14" width="98.5" height="111.648"/>
+	</g>
+    <g id="Слой222">
+        <rect x="9.875" y="130.421" class="s2t00" width="98.5" height="111.648"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="0" y="140" width="12em" height="2em"/>
+          <text y="140" x="0" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_222 %}</text>
+        </g>
+    </g>
+	<g>
+		<rect x="345.5" y="10.141" class="s2t14" width="38.25" height="77.75"/>
+	</g>
+    <g id="Слой214">
+        <rect x="345.5" y="10.141" class="s2t00" width="38.25" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="220" y="0" width="12em" height="2em"/>
+          <text y="0" x="220" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_214 %}</text>
+        </g>
+    </g>
+	<g>
+		<rect x="309" y="10.187" class="s2t14" width="33.875" height="77.75"/>
+	</g>
+    <g id="Слой213">
+        <rect x="309" y="10.187" class="s2t00" width="33.875" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="200" y="0" width="12em" height="2em"/>
+          <text y="0" x="200" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_213 %}</text>
+        </g>
+    </g>
+	<g>
+		<rect x="269.875" y="10.286" class="s2t14" width="36.75" height="77.75"/>
+	</g>
+    <g id="Слой212">
+        <rect x="269.875" y="10.286" class="s2t00" width="36.75" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="180" y="0" width="12em" height="2em"/>
+          <text y="0" x="180" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_212 %}</text>
+        </g>
+    </g>
+	<g>
+		<rect x="234.208" y="9.993" class="s2t14" width="33.271" height="77.75"/>
+	</g>
+    <g id="Слой211">
+        <rect x="234.208" y="9.993" class="s2t00" width="33.271" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="150" y="0" width="12em" height="2em"/>
+          <text y="0" x="150" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_211 %}</text>
+        </g>
+    </g>
+	<g>
+		<rect x="112.167" y="129.936" class="s2t14" width="83.958" height="111.48"/>
+	</g>
+    <g id="Слой221">
+        <rect x="112.167" y="129.936" class="s3t00" width="83.958" height="111.48"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="50" y="140" width="12em" height="2em"/>
+          <text y="140" x="50" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_221 %}</text>
+        </g>
+    </g>
+	<g>
+		<rect x="199.885" y="129.768" class="s2t14" width="68.945" height="111.648"/>
+	</g>
+    <g id="Слой220">
+        <rect x="199.885" y="129.768" class="s2t00" width="68.945" height="111.648"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="100" y="140" width="12em" height="2em"/>
+          <text y="140" x="100" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_220 %}</text>
+        </g>
+    </g>
+	<polyline class="s2t14" points="162.325,10.161 231.847,10.411 231.847,88.161 195.158,88.161 194.658,55.661 162.325,55.661
+		162.325,10.161 	"/>
+    <g id="Слой210">
+        <polyline class="s2t00" points="162.325,10.161 231.847,10.411 231.847,88.161 195.158,88.161 194.658,55.661 162.325,55.661
+		162.325,10.161 	"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="70" y="0" width="12em" height="2em"/>
+          <text y="0" x="90" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;" fill="{% if not instance.news.is_free %}blue{% else %}red{% endif %}">
+            {% placeholder office_210 %}</text>
+        </g>
+	</g>
+</g>
+<g id="Numbers">
+	<rect x="393.335" y="34.843" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 393.3349 43.3624)" class="s2t15 st16 st17">215</text>
+	<rect x="355.522" y="34.645" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 355.5224 43.1649)" class="s2t15 st16 st17">214</text>
+	<rect x="317.272" y="34.759" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 317.2724 43.2781)" class="s2t15 st16 st17">213</text>
+	<rect x="278.79" y="34.64" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 278.7899 43.1595)" class="s2t15 st16 st17">212</text>
+	<rect x="241.087" y="33.716" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 241.0866 42.236)" class="s2t15 st16 st17">211</text>
+	<rect x="187.528" y="33.399" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 187.5276 41.9184)" class="s2t15 st16 st17">210</text>
+	<rect x="301.993" y="181.509" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 301.9932 190.0289)" class="s2t15 st16 st17">219</text>
+	<rect x="411.188" y="179.592" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 411.1875 188.1118)" class="s2t15 st16 st17">218</text>
+	<rect x="223.46" y="180.01" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 223.4597 188.5294)" class="s2t15 st16 st17">220</text>
+	<rect x="141.75" y="180.01" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 141.75 188.5294)" class="s2t15 st16 st17">221</text>
+	<rect x="49.687" y="179.844" class="s2t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 49.6875 188.3633)" class="s2t15 st16 st17">222</text>
+</g>
+<g id="Area">
+	<rect x="405.394" y="194" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 405.3933 199.6797)" class="s2t18 st16 st19">S = 84,2м</text>
+	<text transform="matrix(0.583 0 0 0.583 436.5764 197.0156)" class="s2t18 st20 st19">2</text>
+	<rect x="293.58" y="196" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 293.5793 201.6797)" class="s2t18 st16 st19">S = 51,4 м</text>
+	<text transform="matrix(0.583 0 0 0.583 326.4582 199.0156)" class="s2t18 st20 st19">2</text>
+	<rect x="215.161" y="194" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 215.1609 199.6797)" class="s2t18 st16 st19">S = 51,4 м</text>
+	<text transform="matrix(0.583 0 0 0.583 248.0399 197.0156)" class="s2t18 st20 st19">2</text>
+	<rect x="134.939" y="194" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 134.9386 199.6797)" class="s2t18 st16 st19">S = 54,0 м</text>
+	<text transform="matrix(0.583 0 0 0.583 167.8175 197.0156)" class="s2t18 st20 st19">2</text>
+	<rect x="39.283" y="194" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 39.2823 199.6797)" class="s2t18 st16 st19">S = 52,2 м</text>
+	<text transform="matrix(0.583 0 0 0.583 72.1612 197.0156)" class="s2t18 st20 st19">2</text>
+	<rect x="188.903" y="46.289" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 188.9028 51.2584)" class="s2t18 st16 st21">27,6 м</text>
+	<text transform="matrix(0.583 0 0 0.583 207.081 48.9273)" class="s2t18 st20 st21">2</text>
+	<rect x="239.776" y="46.504" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 239.7752 51.4733)" class="s2t18 st16 st21">17,6 м</text>
+	<text transform="matrix(0.583 0 0 0.583 257.9534 49.1422)" class="s2t18 st20 st21">2</text>
+	<rect x="278.592" y="47.558" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 278.5913 52.528)" class="s2t18 st16 st21">19,1 м</text>
+	<text transform="matrix(0.583 0 0 0.583 296.7695 50.197)" class="s2t18 st20 st21">2</text>
+	<rect x="316.203" y="47.859" class="s2t0" width="31.498" height="7.344"/>
+	<text transform="matrix(1 0 0 1 316.2025 52.8285)" class="s2t18 st16 st21">17,5 м</text>
+	<text transform="matrix(0.583 0 0 0.583 334.3807 50.4974)" class="s2t18 st20 st21">2</text>
+	<g>
+		<rect x="354.545" y="48.454" class="s2t0" width="38.372" height="16.687"/>
+		<text transform="matrix(1 0 0 1 354.5445 53.4234)" class="s2t18 st16 st21">19,2 м</text>
+		<text transform="matrix(0.583 0 0 0.583 372.7227 51.0924)" class="s2t18 st16 st21">2</text>
+	</g>
+	<rect x="393.064" y="48.454" class="s2t0" width="38.372" height="16.687"/>
+	<text transform="matrix(1 0 0 1 393.0636 53.4234)" class="s2t18 st16 st21">17,9 м</text>
+	<text transform="matrix(0.583 0 0 0.583 411.2418 51.0924)" class="s2t18 st20 st21">2</text>
+</g>
+<g id="Office">
+	<g>
+		<circle class="s2t22" cx="281.967" cy="139.904" r="4.926"/>
+		<circle class="s2t22" cx="281.967" cy="139.904" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="21.334" cy="139.904" r="4.926"/>
+		<circle class="s2t22" cx="21.334" cy="139.904" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="412" cy="16.355" r="4.926"/>
+		<circle class="s2t22" cx="412" cy="16.355" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="376.98" cy="16.355" r="4.926"/>
+		<circle class="s2t22" cx="376.98" cy="16.355" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="336.2" cy="16.355" r="4.926"/>
+		<circle class="s2t22" cx="336.2" cy="16.355" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="299.639" cy="16.355" r="4.926"/>
+		<circle class="s2t22" cx="299.64" cy="16.355" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="260.142" cy="16.355" r="4.926"/>
+		<circle class="s2t22" cx="260.143" cy="16.355" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="224.337" cy="16.355" r="4.926"/>
+		<circle class="s2t22" cx="224.337" cy="16.355" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="366.482" cy="139.904" r="4.926"/>
+		<circle class="s2t22" cx="366.483" cy="139.904" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="209.675" cy="139.904" r="4.926"/>
+		<circle class="s2t22" cx="209.676" cy="139.904" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s2t22" cx="122.691" cy="139.904" r="4.926"/>
+		<circle class="s2t22" cx="122.691" cy="139.904" r="1.862"/>
+	</g>
+</g>
+<g id="stairs">
+	<g>
+		<rect x="35.125" y="10.187" class="s2t2" width="45.75" height="76"/>
+		<path class="s2t3" d="M80.625,10.437v75.5h-45.25v-75.5H80.625 M81.125,9.937h-46.25v76.5h46.25V9.937L81.125,9.937z"/>
+	</g>
+	<rect x="35.25" y="30.634" class="s2t23" width="45.667" height="37.054"/>
+	<rect x="35.25" y="30.634" class="s2t23" width="22.219" height="37.054"/>
+	<rect x="58.469" y="30.634" class="s2t23" width="22.219" height="37.054"/>
+	<g>
+		<rect x="35.263" y="34.083" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M57.327,34.208v3.051H35.388v-3.051H57.327 M57.577,33.958H35.138v3.551h22.439V33.958L57.577,33.958z"/>
+	</g>
+	<g>
+		<rect x="35.263" y="40.771" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M57.327,40.896v3.051H35.388v-3.051H57.327 M57.577,40.646H35.138v3.551h22.439V40.646L57.577,40.646z"/>
+	</g>
+	<g>
+		<rect x="35.263" y="47.51" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M57.327,47.635v3.051H35.388v-3.051H57.327 M57.577,47.385H35.138v3.551h22.439V47.385L57.577,47.385z"/>
+	</g>
+	<g>
+		<rect x="35.263" y="54.345" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M57.327,54.47v3.051H35.388V54.47H57.327 M57.577,54.22H35.138v3.551h22.439V54.22L57.577,54.22z"/>
+	</g>
+	<g>
+		<rect x="35.263" y="61.021" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M57.327,61.146v3.051H35.388v-3.051H57.327 M57.577,60.896H35.138v3.551h22.439V60.896L57.577,60.896z"/>
+	</g>
+	<g>
+		<rect x="58.483" y="33.999" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M80.548,34.124v3.051H58.609v-3.051H80.548 M80.798,33.874H58.359v3.551h22.439V33.874L80.798,33.874z"/>
+	</g>
+	<g>
+		<rect x="58.483" y="40.687" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M80.548,40.812v3.051H58.609v-3.051H80.548 M80.798,40.562H58.359v3.551h22.439V40.562L80.798,40.562z"/>
+	</g>
+	<g>
+		<rect x="58.483" y="47.426" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M80.548,47.551v3.051H58.609v-3.051H80.548 M80.798,47.301H58.359v3.551h22.439V47.301L80.798,47.301z"/>
+	</g>
+	<g>
+		<rect x="58.483" y="54.26" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M80.548,54.385v3.051H58.609v-3.051H80.548 M80.798,54.135H58.359v3.551h22.439V54.135L80.798,54.135z"/>
+	</g>
+	<g>
+		<rect x="58.483" y="60.937" class="s2t2" width="22.189" height="3.301"/>
+		<path class="s2t3" d="M80.548,61.062v3.051H58.609v-3.051H80.548 M80.798,60.812H58.359v3.551h22.439V60.812L80.798,60.812z"/>
+	</g>
+	<rect x="449" y="37.757" class="s2t23" width="41.625" height="35.056"/>
+	<rect x="449" y="37.757" class="s2t23" width="20.585" height="35.056"/>
+	<rect x="470.51" y="37.757" class="s2t23" width="20.115" height="35.056"/>
+	<g>
+		<rect x="449.013" y="41.038" class="s2t2" width="20.536" height="3.122"/>
+		<path class="s2t3" d="M469.423,41.163v2.871h-20.286v-2.871H469.423 M469.673,40.913h-20.786v3.371h20.786V40.913L469.673,40.913z"
+			/>
+	</g>
+	<g>
+		<rect x="449.013" y="47.387" class="s2t2" width="20.536" height="3.122"/>
+		<path class="s2t3" d="M469.423,47.512v2.871h-20.286v-2.871H469.423 M469.673,47.262h-20.786v3.371h20.786V47.262L469.673,47.262z"
+			/>
+	</g>
+	<g>
+		<rect x="449.013" y="53.785" class="s2t2" width="20.536" height="3.122"/>
+		<path class="s2t3" d="M469.423,53.91v2.871h-20.286V53.91H469.423 M469.673,53.66h-20.786v3.371h20.786V53.66L469.673,53.66z"/>
+	</g>
+	<g>
+		<rect x="449.013" y="60.274" class="s2t2" width="20.536" height="3.122"/>
+		<path class="s2t3" d="M469.423,60.399v2.871h-20.286v-2.871H469.423 M469.673,60.149h-20.786v3.371h20.786V60.149L469.673,60.149z"
+			/>
+	</g>
+	<g>
+		<rect x="449.013" y="66.612" class="s2t2" width="20.536" height="3.122"/>
+		<path class="s2t3" d="M469.423,66.737v2.871h-20.286v-2.871H469.423 M469.673,66.487h-20.786v3.371h20.786V66.487L469.673,66.487z"
+			/>
+	</g>
+	<g>
+		<rect x="470.522" y="40.958" class="s2t2" width="20.134" height="3.122"/>
+		<path class="s2t3" d="M490.531,41.083v2.871h-19.884v-2.871H490.531 M490.781,40.833h-20.384v3.371h20.384V40.833L490.781,40.833z"
+			/>
+	</g>
+	<g>
+		<rect x="470.522" y="47.307" class="s2t2" width="20.134" height="3.122"/>
+		<path class="s2t3" d="M490.531,47.432v2.871h-19.884v-2.871H490.531 M490.781,47.182h-20.384v3.371h20.384V47.182L490.781,47.182z"
+			/>
+	</g>
+	<g>
+		<rect x="470.522" y="53.705" class="s2t2" width="20.134" height="3.122"/>
+		<path class="s2t3" d="M490.531,53.83v2.871h-19.884V53.83H490.531 M490.781,53.58h-20.384v3.371h20.384V53.58L490.781,53.58z"/>
+	</g>
+	<g>
+		<rect x="470.522" y="60.194" class="s2t2" width="20.134" height="3.122"/>
+		<path class="s2t3" d="M490.531,60.319v2.871h-19.884v-2.871H490.531 M490.781,60.069h-20.384v3.371h20.384V60.069L490.781,60.069z"
+			/>
+	</g>
+	<g>
+		<rect x="470.522" y="66.533" class="s2t2" width="20.134" height="3.121"/>
+		<path class="s2t3" d="M490.531,66.657v2.871h-19.884v-2.871H490.531 M490.781,66.407h-20.384v3.371h20.384V66.407L490.781,66.407z"
+			/>
+	</g>
+</g>
+<g id="WC">
+	<path class="s2t24" d="M139.432,36.73l1.064,1.441c-1.099,1.913-2.792,2.87-5.077,2.87c-1.67,0-3.094-0.589-4.272-1.766
+		c-1.177-1.178-1.765-2.601-1.765-4.272c0-2.666,1.311-4.553,3.934-5.661v1.753c-1.558,0.883-2.337,2.186-2.337,3.908
+		c0,1.221,0.433,2.257,1.298,3.109c0.866,0.853,1.913,1.279,3.142,1.279C137.315,39.391,138.653,38.504,139.432,36.73"/>
+	<path class="s2t24" d="M133.849,27.031c0,0,0.019-0.272,0.773-0.255c0.753,0.017,0.798,0.255,0.798,0.255l0.012,2.164
+		c1.273,0,2.142,0.331,3.12,1.058c0,0,0.028,0.473-0.139,0.697c-0.167,0.223-0.681,0.314-0.681,0.314
+		c-0.632-0.485-1.402-0.727-2.311-0.727v2.585c0,0-0.044,0.251,0.207,0.251c0.251,0,3.259,0.028,3.649,0.028
+		c0.39,0,0.454,0.244,0.454,0.244l2.638,3.544l0.752-0.613c0,0,0.255-0.106,0.557,0.195c0.302,0.301,0.17,0.634,0.17,0.634
+		l-1.934,1.48l-2.987-3.882h-4.691c-0.306,0-0.39-0.349-0.39-0.349L133.849,27.031z"/>
+	<line class="s2t25" x1="114.091" y1="23.09" x2="114.091" y2="40.872"/>
+	<path class="s2t26" d="M107.972,35.088h0.187v5.391c0,0,0.075,0.655,0.674,0.655c0.599,0,0.674-0.58,0.674-0.58v-5.466h1.984
+		l-2.134-6.719h0.337l1.31,4.099c0,0,0.225,0.412,0.711,0.244c0.487-0.169,0.337-0.618,0.337-0.618s-1.198-4.099-1.329-4.473
+		c-0.131-0.375-0.655-1.255-1.497-1.255h-1.292"/>
+	<path class="s2t26" d="M109.309,24.494c0,0.796-0.645,1.441-1.441,1.441c-0.796,0-1.442-0.646-1.442-1.441
+		c0-0.796,0.646-1.442,1.442-1.442C108.663,23.053,109.309,23.698,109.309,24.494"/>
+	<path class="s2t26" d="M108.066,35.088h-0.187v5.391c0,0-0.075,0.655-0.674,0.655c-0.599,0-0.673-0.58-0.673-0.58v-5.466h-1.985
+		l2.134-6.719h-0.337l-1.31,4.099c0,0-0.225,0.412-0.711,0.244c-0.487-0.169-0.337-0.618-0.337-0.618s1.198-4.099,1.329-4.473
+		c0.131-0.375,0.655-1.255,1.497-1.255h1.292"/>
+	<path class="s2t26" d="M119.936,26.216h1.965c1.071,0,1.64,1.142,1.64,1.442v5.11c0,0-0.128,0.524-0.633,0.524
+		c-0.505,0-0.562-0.524-0.562-0.524v-4.287h-0.374v6.327l-0.019,5.466c0,0,0.066,0.58-0.679,0.58c-0.745,0-0.838-0.655-0.838-0.655
+		l0.001-6.869h-0.243"/>
+	<path class="s2t26" d="M121.448,24.475c0,0.796-0.645,1.441-1.441,1.441c-0.796,0-1.441-0.645-1.441-1.441
+		c0-0.796,0.645-1.441,1.441-1.441C120.803,23.034,121.448,23.679,121.448,24.475"/>
+	<path class="s2t26" d="M120.461,26.216h-1.965c-1.071,0-1.64,1.142-1.64,1.442v5.11c0,0,0.128,0.524,0.633,0.524
+		c0.505,0,0.562-0.524,0.562-0.524v-4.287h0.374v6.327l0.019,5.466c0,0-0.066,0.58,0.679,0.58c0.745,0,0.838-0.655,0.838-0.655
+		l-0.001-6.869h0.243"/>
+	<line class="s2t25" x1="126.454" y1="23.126" x2="126.454" y2="40.909"/>
+	<path class="s2t26" d="M135.901,25.217c0,0.714-0.579,1.293-1.294,1.293c-0.714,0-1.293-0.579-1.293-1.293
+		c0-0.714,0.579-1.293,1.293-1.293C135.322,23.924,135.901,24.502,135.901,25.217"/>
+	<path class="s2t27" d="M95.518,33.104c0,0.272-0.221,0.493-0.493,0.493h-2.618c-0.272,0-0.493-0.221-0.493-0.493v-2.889
+		c0-0.272,0.221-0.493,0.493-0.493h2.618c0.272,0,0.493,0.221,0.493,0.493V33.104z"/>
+	<path class="s2t27" d="M89.343,32.181c-0.178,0.151-0.17,0.453,0.018,0.674c0.188,0.221,0.484,0.277,0.662,0.125l2.767-2.356
+		c0.178-0.151,0.17-0.453-0.018-0.674c-0.188-0.221-0.484-0.277-0.662-0.126L89.343,32.181z"/>
+	<path class="s2t27" d="M98.095,32.181c0.178,0.151,0.17,0.453-0.018,0.674c-0.188,0.221-0.484,0.277-0.662,0.125l-2.767-2.356
+		c-0.178-0.151-0.17-0.453,0.018-0.674c0.188-0.221,0.484-0.277,0.663-0.126L98.095,32.181z"/>
+	<path class="s2t27" d="M94.063,37.24c-0.225,0.237-0.211,0.616,0.032,0.846c0.243,0.229,0.622,0.223,0.846-0.014l1.968-2.079
+		c0.224-0.238,0.21-0.616-0.033-0.846c-0.242-0.23-0.621-0.223-0.846,0.014L94.063,37.24z"/>
+	<polygon class="s2t27" points="95.511,33.79 94.589,34.751 96.05,36.202 96.972,35.241 	"/>
+	<path class="s2t27" d="M95.322,27.895c0,0.878-0.711,1.589-1.588,1.589c-0.878,0-1.589-0.711-1.589-1.589
+		c0-0.877,0.711-1.589,1.589-1.589C94.611,26.306,95.322,27.017,95.322,27.895"/>
+	<path class="s2t27" d="M93.39,37.268c0.225,0.237,0.211,0.616-0.032,0.846c-0.243,0.23-0.622,0.223-0.846-0.014l-1.968-2.078
+		c-0.224-0.238-0.21-0.617,0.033-0.846c0.242-0.23,0.621-0.224,0.846,0.014L93.39,37.268z"/>
+	<polygon class="s2t27" points="91.941,33.818 92.863,34.779 91.403,36.23 90.481,35.269 	"/>
+	<path class="s2t28" d="M95.513,33.658l-1.474,1.438c-0.19,0.19-0.498,0.19-0.689,0l-1.409-1.447"/>
+	<line class="s2t25" x1="101.439" y1="23.193" x2="101.439" y2="40.976"/>
+</g>
+<g id="Elevator">
+	<path class="s2t26" d="M444.517,150.571h0.099v2.855c0,0,0.04,0.347,0.357,0.347s0.356-0.307,0.356-0.307v-2.895h1.051l-1.13-3.559
+		h0.179l0.693,2.171c0,0,0.119,0.218,0.376,0.129c0.258-0.089,0.179-0.327,0.179-0.327s-0.634-2.172-0.703-2.369
+		c-0.07-0.199-0.347-0.664-0.793-0.664h-0.684"/>
+	<path class="s2t26" d="M445.292,145.012c0,0.422-0.342,0.763-0.764,0.763c-0.421,0-0.763-0.342-0.763-0.763s0.342-0.763,0.763-0.763
+		C444.951,144.249,445.292,144.591,445.292,145.012"/>
+	<path class="s2t26" d="M444.615,150.571h-0.099v2.855c0,0-0.039,0.347-0.357,0.347c-0.317,0-0.357-0.307-0.357-0.307v-2.895h-1.051
+		l1.13-3.559h-0.178l-0.694,2.171c0,0-0.119,0.218-0.376,0.129c-0.258-0.089-0.179-0.327-0.179-0.327s0.635-2.172,0.704-2.369
+		c0.069-0.199,0.347-0.664,0.793-0.664h0.684"/>
+	<path class="s2t26" d="M449.188,145.986h1.042c0.567,0,0.868,0.605,0.868,0.763v2.706c0,0-0.068,0.278-0.335,0.278
+		c-0.267,0-0.298-0.278-0.298-0.278v-2.27h-0.198v3.351l-0.01,2.895c0,0,0.035,0.307-0.359,0.307c-0.395,0-0.444-0.347-0.444-0.347
+		l0.001-3.638h-0.129"/>
+	<path class="s2t26" d="M449.989,145.012c0,0.422-0.342,0.763-0.763,0.763c-0.422,0-0.764-0.342-0.764-0.763s0.342-0.763,0.764-0.763
+		C449.647,144.249,449.989,144.591,449.989,145.012"/>
+	<path class="s2t26" d="M449.466,145.986h-1.041c-0.567,0-0.868,0.605-0.868,0.763v2.706c0,0,0.067,0.278,0.335,0.278
+		c0.267,0,0.297-0.278,0.297-0.278v-2.27h0.199v3.351l0.01,2.895c0,0-0.035,0.307,0.359,0.307c0.395,0,0.444-0.347,0.444-0.347
+		l-0.001-3.638h0.129"/>
+	<path class="s2t29" d="M457.027,154.47c0,0.283-0.228,0.511-0.511,0.511h-18.998c-0.282,0-0.511-0.228-0.511-0.511v-12.608
+		c0-0.282,0.229-0.512,0.511-0.512h18.998c0.283,0,0.511,0.23,0.511,0.512V154.47z"/>
+	<polyline class="s2t26" points="441.295,139.896 447.018,135.271 452.741,139.896 	"/>
+	<polyline class="s2t26" points="452.741,156.672 447.018,161.727 441.295,156.672 	"/>
+</g>
+</svg>

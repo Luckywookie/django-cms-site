@@ -161,6 +161,7 @@ INSTALLED_APPS = (
     'sortedm2m',
     'taggit',
     'reversion',
+    'officeApp',
     # 'cmsplugin_gallery',
 
 )

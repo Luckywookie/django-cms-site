@@ -52,37 +52,38 @@
         </nav>
         <!-- Page Content -->
             {% block content %}
+                {% placeholder slider %}
             <!-- Slider -->
-            <div class="row">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <div class="line-indicators"></div>
-                    <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
+            <!--<div class="row">-->
+                <!--<div id="myCarousel" class="carousel slide" data-ride="carousel">-->
+                    <!--&lt;!&ndash; Indicators &ndash;&gt;-->
+                    <!--<div class="line-indicators"></div>-->
+                    <!--<ol class="carousel-indicators">-->
+                      <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+                      <!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+                      <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+                    <!--</ol>-->
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="{% static 'slider/slider_2.jpg' %}" alt="Second">
-                    </div>
+                <!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+                <!--<div class="carousel-inner" role="listbox">-->
+                    <!--<div class="item active">-->
+                        <!--<img src="{% static 'slider/slider_2.jpg' %}" alt="Second">-->
+                    <!--</div>-->
 
-                    <div class="item">
-                        <img src="{% static 'slider/img_second.jpg' %}" alt="First">
-                    </div>
+                    <!--<div class="item">-->
+                        <!--<img src="{% static 'slider/img_second.jpg' %}" alt="First">-->
+                    <!--</div>-->
 
-                    <div class="item">
-                        <img src="{% static 'slider/slider_1.jpg' %}" alt="Second">
-                    </div>
+                    <!--<div class="item">-->
+                        <!--<img src="{% static 'slider/slider_1.jpg' %}" alt="Second">-->
+                    <!--</div>-->
 
-                </div>
-            </div>
+                <!--</div>-->
+            <!--</div>-->
             <!-- /.row -->
 
             <!-- Icons and Text Rows -->
-            <div class="row row-circle">
+            <div class="row row-circle" id="icons">
                <div class="container" id="rows">
                    <div class="col-md-12">
                        <img src="{% static 'images/icon.png' %}">
@@ -133,6 +134,59 @@
             </div>
 
 
+            <!-- Table of floors -->
+            <div class="row" id="tbl-img">
+               <div class="container" id="table">
+                   <div class="col-md-8 img-table">
+                      <img class="img-build center-block" src="{% static 'images/photo_3D.png' %}" width="700">
+                   </div>
+                   <div class="col-md-4 div-table">
+                       <h4>ЭТАЖ</h4>
+                        <ul class="nav nav-stacked">
+                            <li><a data-toggle="pill" href="#home">5</a></li>
+                            <li><a data-toggle="pill" href="#menu1">4</a></li>
+                            <li><a data-toggle="pill" href="#menu2">3</a></li>
+                            <li><a data-toggle="pill" href="#menu3">2</a></li>
+                            <li><a data-toggle="pill" href="#menu4">1</a></li>
+                          </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row" id="tbl-img">
+                   <div class="container plan">
+                       <div class="col-md-12">
+                            <div class="tab-content">
+                                <div id="home" class="tab-pane fade">
+                                  <h3>ПЛАН 5 ЭТАЖА</h3>
+                                      {% include "svg/five_floor_base_svg.html" %}
+                                  <p></p>
+                                </div>
+                                <div id="menu1" class="tab-pane fade">
+                                  <h3>ПЛАН 4 ЭТАЖА</h3>
+                                    {% include "svg/four_floor.html" %}
+                                </div>
+                                <div id="menu2" class="tab-pane fade">
+                                  <h3>ПЛАН 3 ЭТАЖА</h3>
+                                    {% include "svg/three_floor.html" %}
+                                </div>
+                                <div id="menu3" class="tab-pane fade">
+                                    <h3>ПЛАН 2 ЭТАЖА</h3>
+                                    {% include "svg/two_floor.html" %}
+                                </div>
+                                <div id="menu4" class="tab-pane fade">
+                                    <h3>ПЛАН 1 ЭТАЖА</h3>
+                                    {% include "svg/one_floor.html" %}
+                                    <!-- <embed type="image/svg+xml" src="{% static 'images/plan_5_shema%20copy2.svg' %}" pluginspage="http://www.adobe.com/svg/viewer/install/" /> -->
+                                </div>
+                              </div>
+                       </div>
+                    </div>
+            </div>
+
+
+
             <!-- Oppotunities -->
             <div class="row" id="block">
                 <div class="col-md-6 column-1">
@@ -154,13 +208,28 @@
                        <hr class="hr">
                    </div>
                     <div class="col-md-4 mini-block">
+                       <div class="col-md-2" style="padding-top: 5px;">
+                           <i class="icofont icofont-social-google-map"></i>
+                        </div>
+                       <div class="col-md-10">
                         {% placeholder address %}
+			</div>
                     </div>
                     <div class="col-md-4 mini-block">
+                        <div class="col-md-2" style="padding-top: 15px;">
+                           <i class="icofont icofont-phone"></i>
+                        </div>
+                       <div class="col-md-10">
                         {% placeholder phone %}
+			</div>
                     </div>
                     <div class="col-md-4 mini-block">
+                        <div class="col-md-2" style="padding-top: 15px;">
+                           <i class="icofont icofont-envelope"></i>
+                        </div>
+                       <div class="col-md-10">
                         {% placeholder email %}
+			</div>
                     </div>
                      <div class="col-md-12 map">
                         {% placeholder maps %}
@@ -186,7 +255,13 @@
                 <p>@2016</p>
             </div>
         </div>
-        </div>
+
+        <script>
+            var tooltip = d3.selectAll(".tooltip:not(.css)");
+            .on("mouseout", function () {
+                return tooltip.style("opacity", "0");
+            });
+        </script>
     {% endblock content %}
     {% render_block "js" %}
     </body>

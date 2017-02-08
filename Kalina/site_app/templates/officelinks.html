@@ -1,0 +1,7 @@
+{% load cms_tags %}
+{% if instance.news.is_free %}
+green">Свободен - {{ instance.news.price }} руб/мес
+
+{% else %}
+red">Занят
+{% endif %}

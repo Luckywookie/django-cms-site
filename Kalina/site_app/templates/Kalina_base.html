@@ -12,9 +12,11 @@
         <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
         <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
         <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-social.css' %}" />
+        <link rel="stylesheet" href="http://bootstraptema.ru/plugins/2016/animate/animate.css" />
 
         <!-- Custom CSS -->
         <link href="{% static 'css/base_css.css' %}" rel=stylesheet>
+        <link href="{% static 'css/slider.css' %}" rel=stylesheet>
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400|Open+Sans:300|Poiret+One" rel="stylesheet">
@@ -39,7 +41,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                     <a class="navbar-brand" href="#"><span class="hall red">Kа</span><span class="Kalina red">лин</span><span class="hall red">а</span><span class="hall grey">hall</span></a>
+                     <a class="navbar-brand" href="/"><img src="{% static 'images/logo_kalina.png' %}">
+                         <!-- <span class="hall red">Kа</span><span class="Kalina red">лин</span><span class="hall red">а</span><span class="hall grey">hall</span> -->
+                     </a>
                 </div>
                 <!-- Collect the nav links-->
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -148,6 +152,7 @@
                             <li><a data-toggle="pill" href="#menu2">3</a></li>
                             <li><a data-toggle="pill" href="#menu3">2</a></li>
                             <li><a data-toggle="pill" href="#menu4">1</a></li>
+                            <li><a data-toggle="pill" href="#menu5">0</a></li>
                           </ul>
                     </div>
                        <div class="col-md-12 col-xs-12">
@@ -173,6 +178,10 @@
                                     <h3>ПЛАН 1 ЭТАЖА</h3>
                                     {% include "svg/one_floor.html" %}
                                     <!-- <embed type="image/svg+xml" src="{% static 'images/plan_5_shema%20copy2.svg' %}" pluginspage="http://www.adobe.com/svg/viewer/install/" /> -->
+                                </div>
+                                <div id="menu5" class="tab-pane fade">
+                                    <h3>ПЛАН ПОДВАЛА</h3>
+                                    {% include "svg/base_floor.html" %}
                                 </div>
                               </div>
                        </div>
@@ -237,19 +246,20 @@
                 return tooltip.style("opacity", "0");
             });
         </script>
-    <script>
+<!--
+   <script>
         $(document).ready(function(){
             $("div.carousel-caption").hide().fadeIn("slow");
         })
-        
+
         $('.myCarousel').on('slide.bs.carousel',function(){
                $('.carousel-caption').fadeOut(300);
             })
-        $('.myCarousel').on('slid.bs.carousel',function(){
+        $('.myCarousel').on('slide.bs.carousel',function(){
                $('.carousel-caption').fadeIn(600);
         })
     </script>
-
+-->
         
     {% endblock content %}
 

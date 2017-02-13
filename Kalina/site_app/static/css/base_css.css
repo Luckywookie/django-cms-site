@@ -1,10 +1,48 @@
+.img-build {
+    width: 100%;
+}
 
+svg {
+        width: 100%;
+        overflow: visible;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+
+#content img.filer_image.right{
+    float: right;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin-left: 10px;
+}
+
+#content img.filer_image.left{
+    float: left;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin-right: 10px;   
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.3);
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 15px;
+    color: orange;
+    height: 120px;
+}
+
+.close{
+    font-family: sans-serif;
+}
 
 #content {
     margin-top: 0px;
     color: #505050;
     font-family: 'Exo 2', sans-serif;
     font-weight: 300;
+   /* background-color: #f9f9f9;*/
 }
 
 .news img {
@@ -13,37 +51,23 @@
 
 #navigation {
     margin: 0 auto;
-    height: 150px;
 }
 
 .navbar-brand {
-    margin-top: 66px;
     padding-left: 50px;
+    margin-top: 45px;
+    margin-bottom: 30px;
 }
 
-.red {
-    color: #f94312 !important;
-}
-
-.Kalina {
-    font-size: 5em;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-}
-
-.grey {
-    color: #505050 !important;    
-}
-
-.hall {
-    font-size: 4.3em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+.navbar-brand>img {
+    height: 60px;
+    width: auto;
 }
 
 #myNavbar {
     padding-top: 70px;
     margin-right: 100px;
+    margin-bottom: 30px;
 }
 
 #myNavbar a{
@@ -60,6 +84,7 @@ li.active-menu a{
     color: white !important;
     text-align: center;
     width: 140px;
+    font-weight: 400;
 }
 
 #myNavbar .selected a {
@@ -99,6 +124,14 @@ li.active-menu a{
 .row-circle{
     background-color: #f7f7f7;
     text-align: center;
+}
+
+#icons, #block {
+    border-bottom: 1px solid #e6e3e3;
+}
+
+#block{
+    border-top: 1px solid #e6e3e3;
 }
 
 .row-circle h2{
@@ -178,18 +211,20 @@ li.active-menu a{
 
 #block img {
     float: left;
+    padding-right: 10px;
+    margin-top: 20px;
 }
 
 #cont {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+/*    width: 75%;*/
 }
 
 #footer {
-    height: 80px;
+    height: 50px;
     text-align: center;
-    margin: 30px;
 }
 
 .my-btn {
@@ -218,4 +253,101 @@ h2 a{
 .container, .map {
     padding-right: 0px;
     padding-left: 0px;
+}
+
+#table {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/*
+#table-floor {
+    width: 70px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 0px !important;
+}
+
+#table-floor th {
+    border: none;
+    text-align: center;
+}
+
+#table-floor tr {
+    height: 50px;
+    color: white !important;
+}*/
+
+.div-table {
+    padding-top: 20px;
+    padding-left: 40px !important;
+}
+
+.img-table {
+    padding-right: 10px !important;
+}
+
+.img-table h4{
+    font-weight: bold;
+}
+
+#tbl-img {
+    /*background-color: #fe7d2a; */
+    background-color: #f9f9f9;
+    width: 100%;
+    margin: auto;
+}
+
+
+#tbl-img .tab-content h3{
+    text-align: center;  
+}
+
+.plan {
+    width: 70%;
+}
+
+.floor-menu{
+    width: 40px;
+}
+
+#tbl-img ul li a{
+    border-bottom: 1px solid grey;
+    width: 50px;
+    color: grey!important;
+    height: 50px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#tbl-img ul li a:hover {
+    background-color: #fe7d2a;
+    opacity: 0.7;
+    color: black !important;
+}
+
+#tbl-img li.active a:focus {
+    background-color: #fe7d2a;
+    opacity: 0.7;
+    color: black !important;
+}
+
+#tbl-img li {
+    margin: 0px !important;
+}
+
+#content img.filer_image.left {
+    float: left;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+}
+
+#content img.filer_image.right {
+    float: right;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin-left: 10px;
 }

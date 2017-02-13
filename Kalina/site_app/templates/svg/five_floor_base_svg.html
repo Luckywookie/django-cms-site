@@ -19,10 +19,10 @@
 	.s5t13{fill:#C9C7C7;}
 	.s5t14{fill:#777676;}
 	.s5t15{display:none;fill:#C9C7C7;}
-	.s5t16{display:none;}
+	.s5t16{}
 	.s5t17{display:inline;}
-	.s5t18{fill:#ED8620;}
-	.s5t19{display:inline;fill:#ED8620;}
+	.s5t18{fill:#ED8620; opacity: 0;}
+	.s5t19{display:inline;fill:#ED8620; opacity: 0;}
 	.s5t20{fill:none;stroke:#D35E0F;}
 	.s5t21{fill:none;stroke:#777777;stroke-width:0.25;}
 	.s5t22{fill:#616161;}
@@ -47,7 +47,7 @@
     }
 
     .s5t00:hover {
-        fill: {% if not instance.news.is_free %}orange{% else %}red{% endif %};
+        fill: orange;
         fill-opacity: 0.5;
     }
 
@@ -88,7 +88,7 @@
     }
 
 </style>
-<g id="Walls">
+<g id="Стены">
 	<line class="s5t0" x1="199.875" y1="252.687" x2="266.042" y2="252.687"/>
 	<line class="s5t0" x1="199.875" y1="247.094" x2="266.042" y2="247.094"/>
 	<line class="s5t0" x1="199.875" y1="249.437" x2="266.042" y2="249.375"/>
@@ -177,7 +177,7 @@
 		<path class="s5t3" d="M83.375,73.125V84.5h-2.244V73.125H83.375 M83.625,72.875h-2.744V84.75h2.744V72.875L83.625,72.875z"/>
 	</g>
 </g>
-<g id="Rooms">
+<g id="Комнаты">
 	<rect x="-0.625" y="0.687" class="s5t4" width="501" height="250.5"/>
 	<rect x="9.875" y="10.187" class="s5t5" width="480.5" height="232"/>
 	<rect x="199.875" y="130.187" class="s5t6" width="68.945" height="111.313"/>
@@ -361,23 +361,29 @@
 		</g>
 	</g>
 	<rect x="393" y="33.385" class="s5t0" width="18.875" height="12"/>
-	<text transform="matrix(1 0 0 1 393 41.9046)" class="s5t10 s5t11 s5t12">515</text>
+	<text transform="matrix(1 0 0 1 393 41.9046)" class="s5t10 s5t11 s5t12">510</text>
 	<rect x="355.188" y="33.187" class="s5t0" width="18.875" height="12"/>
-	<text transform="matrix(1 0 0 1 355.1875 41.707)" class="s5t10 s5t11 s5t12">514</text>
+	<text transform="matrix(1 0 0 1 355.1875 41.707)" class="s5t10 s5t11 s5t12">509</text>
 	<rect x="316.938" y="33.301" class="s5t0" width="18.875" height="12"/>
-	<text transform="matrix(1 0 0 1 316.9375 41.8203)" class="s5t10 s5t11 s5t12">513</text>
+	<text transform="matrix(1 0 0 1 316.9375 41.8203)" class="s5t10 s5t11 s5t12">508</text>
 	<rect x="278.455" y="33.182" class="s5t0" width="18.875" height="12"/>
-	<text transform="matrix(1 0 0 1 278.455 41.7016)" class="s5t10 s5t11 s5t12">512</text>
+	<text transform="matrix(1 0 0 1 278.455 41.7016)" class="s5t10 s5t11 s5t12">507</text>
 	<rect x="233.625" y="33.182" class="s5t0" width="18.875" height="12"/>
-	<text transform="matrix(1 0 0 1 233.625 41.7016)" class="s5t10 s5t11 s5t12">511</text>
-	<rect x="178.875" y="32.301" class="s5t0" width="18.875" height="12"/>
-	<text transform="matrix(1 0 0 1 178.875 40.8203)" class="s5t10 s5t11 s5t12">510</text>
+	<text transform="matrix(1 0 0 1 233.625 41.7016)" class="s5t10 s5t11 s5t12">506</text>
+	<rect x="178.875" y="33.301" class="s5t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 178.875 41.8203)" class="s5t10 s5t11 s5t12">505</text>
 	<rect x="50.875" y="178.75" class="s5t0" width="18.875" height="12"/>
-	<text transform="matrix(1 0 0 1 50.875 187.2695)" class="s5t10 s5t11 s5t12">519</text>
-	<rect x="355.188" y="179.676" class="s5t0" width="18.875" height="12"/>
-	<text transform="matrix(1 0 0 1 355.1875 188.1956)" class="s5t10 s5t11 s5t12">518</text>
+	<text transform="matrix(1 0 0 1 50.875 187.2695)" class="s5t10 s5t11 s5t12">515</text>
+	<rect x="355.188" y="180.676" class="s5t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 355.1875 189.1956)" class="s5t10 s5t11 s5t12">511</text>
+	<rect x="144.708" y="152.187" class="s5t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 144.7083 160.707)" class="s5t10 s5t11 s5t12">514</text>
+	<rect x="223.458" y="178.75" class="s5t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 223.4583 187.2695)" class="s5t10 s5t11 s5t12">512</text>
+	<rect x="144.688" y="206.927" class="s5t0" width="18.875" height="12"/>
+	<text transform="matrix(1 0 0 1 144.6875 215.4461)" class="s5t10 s5t11 s5t12">513</text>
 </g>
-<g id="Windows">
+<g id="Столбы_x2B_окна">
 	<g>
 		<rect x="190.188" y="237.375" class="s5t13" width="9.719" height="10.937"/>
 		<path class="s5t14" d="M199.781,237.5v10.687h-9.469V237.5H199.781 M200.031,237.25h-9.969v11.187h9.969V237.25L200.031,237.25z"/>
@@ -526,6 +532,133 @@
 		</g>
 	</g>
 </g>
+<g id="Selected" class="s5t16">
+
+		<rect x="386.375" y="9.993" class="s5t18 s5t17" width="32.125" height="77.75"/>
+
+	<g id="Слой510">
+        <rect x="386.375" y="9.993" class="s5t00" width="32.125" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="270" y="0" width="12em" height="2em"/>
+          <text y="0" x="293" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_510 %}</text>
+        </g>
+    </g>
+	<g class="s5t17">
+		<rect x="9.875" y="130.421" class="s5t18" width="98.5" height="111.648"/>
+	</g>
+    <g id="Слой515">
+        <rect x="9.875" y="130.421" class="s5t00" width="98.5" height="111.648"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="0" y="140" width="12em" height="2em"/>
+          <text y="140" x="20" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_515 %}</text>
+        </g>
+    </g>
+	<g class="s5t17">
+		<g>
+			<polygon class="s5t18" points="271.993,130.421 271.993,242.068 490.375,241.818 490.375,169.506 414.042,169.506 414.042,130.86
+							"/>
+		</g>
+	</g>
+     <g id="Слой511">
+        <polygon class="s5t00" points="271.993,130.421 271.993,242.068 490.375,241.818 490.375,169.506 414.042,169.506 414.042,130.86
+							"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="250" y="140" width="12em" height="2em"/>
+          <text y="140" x="273" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_511 %}</text>
+        </g>
+	</g>
+	<g class="s5t17">
+		<rect x="345.5" y="10.141" class="s5t18" width="38.25" height="77.75"/>
+	</g>
+    <g id="Слой509">
+        <rect x="345.5" y="10.141" class="s5t00" width="38.25" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="250" y="0" width="12em" height="2em"/>
+          <text y="0" x="270" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_509 %}</text>
+        </g>
+    </g>
+	<g class="s5t17">
+		<rect x="309" y="10.187" class="s5t18" width="33.875" height="77.75"/>
+	</g>
+    <g id="Слой508">
+        <rect x="309" y="10.187" class="s5t00" width="33.875" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="200" y="0" width="12em" height="2em"/>
+          <text y="0" x="220" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_508 %}</text>
+        </g>
+    </g>
+	<g class="s5t17">
+		<rect x="269.875" y="10.286" class="s5t18" width="36.75" height="77.75"/>
+	</g>
+    <g id="Слой507">
+        <rect x="269.875" y="10.286" class="s5t00" width="36.75" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="170" y="0" width="12em" height="2em"/>
+          <text y="0" x="190" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_507 %}</text>
+        </g>
+    </g>
+	<g class="s5t17">
+		<rect x="216.646" y="9.993" class="s5t18" width="50.833" height="77.75"/>
+	</g>
+    <g id="Слой506">
+        <rect x="216.646" y="9.993" class="s5t00" width="50.833" height="77.75"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="120" y="0" width="12em" height="2em"/>
+          <text y="0" x="140" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_506 %}</text>
+        </g>
+    </g>
+	<polyline class="s5t19" points="162.813,9.868 214.688,10.118 214.688,87.868 195.188,87.868 195.188,55.368 162.813,55.368
+		162.813,9.868 	"/>
+    <g id="Слой505">
+        <polyline class="s5t00" points="162.813,9.868 214.688,10.118 214.688,87.868 195.188,87.868 195.188,55.368 162.813,55.368
+		162.813,9.868 	"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="70" y="0" width="12em" height="2em"/>
+          <text y="0" x="90" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_505 %}</text>
+        </g>
+	</g>
+	<g class="s5t17">
+		<rect x="199.844" y="130.421" class="s5t18" width="68.976" height="111.648"/>
+	</g>
+    <g id="Слой512">
+        <rect x="199.844" y="130.421" class="s5t00" width="68.976" height="111.648"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="100" y="140" width="12em" height="2em"/>
+          <text y="140" x="120" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_512 %}</text>
+        </g>
+	</g>
+	<g class="s5t17">
+		<rect x="112.283" y="130.421" class="s5t18" width="83.821" height="63.162"/>
+	</g>
+    <g id="Слой514">
+        <rect x="112.283" y="130.421" class="s5t00" width="83.821" height="63.162"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="20" y="100" width="12em" height="2em"/>
+          <text y="100" x="40" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_514 %}</text>
+        </g>
+	</g>
+	<g class="s5t17">
+		<rect x="112.214" y="196.521" class="s5t18" width="83.911" height="45.548"/>
+	</g>
+    <g id="Слой513">
+        <rect x="112.214" y="196.521" class="s5t00" width="83.911" height="45.548"/>
+        <g class="tooltip css" transform="translate(50,50)">
+          <rect class="txt" x="20" y="140" width="12em" height="2em"/>
+          <text y="140" x="40" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
+            {% placeholder office_513 %}</text>
+        </g>
+	</g>
+</g>
 <g id="Office">
 	<g>
 		<circle class="s5t20" cx="281.967" cy="139.904" r="4.926"/>
@@ -558,6 +691,18 @@
 	<g>
 		<circle class="s5t20" cx="207.401" cy="16.355" r="4.926"/>
 		<circle class="s5t20" cx="207.401" cy="16.355" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s5t20" cx="123.375" cy="139.904" r="4.926"/>
+		<circle class="s5t20" cx="123.375" cy="139.904" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s5t20" cx="211.5" cy="139.904" r="4.926"/>
+		<circle class="s5t20" cx="211.5" cy="139.904" r="1.862"/>
+	</g>
+	<g>
+		<circle class="s5t20" cx="123.375" cy="209.687" r="4.926"/>
+		<circle class="s5t20" cx="123.375" cy="209.687" r="1.862"/>
 	</g>
 </g>
 <g id="stairs">
@@ -729,125 +874,38 @@
 	<polyline class="s5t24" points="452.741,156.672 447.018,161.727 441.295,156.672 	"/>
 </g>
 <g id="Numbers">
-	<rect x="346.161" y="193" class="s5t0" width="44.872" height="16.687"/>
-	<text transform="matrix(1 0 0 1 346.1609 198.6797)" class="s5t28 s5t11 s5t29">S = 136,9 м</text>
-	<text transform="matrix(0.583 0 0 0.583 383.1439 196.0156)" class="s5t28 s5t30 s5t29">2</text>
-	<rect x="37.877" y="193" class="s5t0" width="44.872" height="16.687"/>
-	<text transform="matrix(1 0 0 1 37.8761 198.6797)" class="s5t28 s5t11 s5t29">S = 157,8 м</text>
-	<text transform="matrix(0.583 0 0 0.583 74.859 196.0156)" class="s5t28 s5t30 s5t29">2</text>
-	<rect x="173.668" y="43.906" class="s5t0" width="44.872" height="16.687"/>
-	<text transform="matrix(1 0 0 1 173.6677 49.5859)" class="s5t28 s5t11 s5t29">S = 18,6 м</text>
-	<text transform="matrix(0.583 0 0 0.583 206.5466 46.9219)" class="s5t28 s5t30 s5t29">2</text>
-	<rect x="223.917" y="45.236" class="s5t0" width="44.872" height="16.687"/>
-	<text transform="matrix(1 0 0 1 223.9161 50.9162)" class="s5t28 s5t11 s5t29">S = 26,6 м</text>
-	<text transform="matrix(0.583 0 0 0.583 256.795 48.2521)" class="s5t28 s5t30 s5t29">2</text>
-	<rect x="273.786" y="45.236" class="s5t0" width="44.872" height="16.687"/>
-	<text transform="matrix(1 0 0 1 273.7853 50.9162)" class="s5t28 s5t11 s5t29">S = 19 м</text>
-	<text transform="matrix(0.583 0 0 0.583 300.9044 48.2521)" class="s5t28 s5t30 s5t29">2</text>
-	<rect x="308.902" y="45.236" class="s5t0" width="38.806" height="14.432"/>
-	<text transform="matrix(1 0 0 1 308.9025 50.9162)" class="s5t28 s5t11 s5t29">S = 17,3 м</text>
-	<text transform="matrix(0.583 0 0 0.583 341.7814 48.2521)" class="s5t28 s5t30 s5t29">2</text>
-	<rect x="347.756" y="45.187" class="s5t0" width="38.806" height="14.432"/>
-	<text transform="matrix(1 0 0 1 347.7566 50.8672)" class="s5t28 s5t11 s5t29">S = 19,1 м</text>
-	<text transform="matrix(0.583 0 0 0.583 380.6355 48.2031)" class="s5t28 s5t30 s5t29">2</text>
-	<rect x="387.671" y="45.034" class="s5t0" width="38.806" height="14.432"/>
-	<text transform="matrix(1 0 0 1 387.6719 50.7138)" class="s5t28 s5t11 s5t29">S = 18 м</text>
-	<text transform="matrix(0.583 0 0 0.583 414.791 48.0497)" class="s5t28 s5t30 s5t29">2</text>
-</g>
-<g id="Selected">
-	<g>
-		<rect x="386.375" y="9.993" class="s5t16" width="32.125" height="77.75"/>
-	</g>
-    <g id="Слой515">
-        <rect x="386.375" y="9.993" class="s5t00" width="32.125" height="77.75"/>
-        <g class="tooltip css" transform="translate(50,50)">
-          <rect class="txt" x="270" y="0" width="12em" height="2em"/>
-          <text y="0" x="293" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
-            {% placeholder office_515 %}</text>
-        </g>
-    </g>
-	<g>
-		<rect x="9.875" y="130.421" class="s5t16" width="258.945" height="111.648"/>
-	</g>
-    <g id="Слой519">
-        <rect x="9.875" y="130.421" class="s5t00" width="258.945" height="111.648"/>
-        <g class="tooltip css" transform="translate(50,50)">
-          <rect class="txt" x="20" y="140" width="12em" height="2em"/>
-          <text y="140" x="43" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
-            {% placeholder office_519 %}</text>
-        </g>
-    </g>
-	<g>
-		<g>
-			<polygon class="s5t16" points="271.993,130.421 271.993,242.068 490.375,241.818 490.375,169.506 414.042,169.506 414.042,130.86
-							"/>
-		</g>
-	</g>
-    <g id="Слой518">
-        <polygon class="s5t00" points="271.993,130.421 271.993,242.068 490.375,241.818 490.375,169.506 414.042,169.506 414.042,130.86
-							"/>
-        <g class="tooltip css" transform="translate(50,50)">
-          <rect class="txt" x="250" y="140" width="12em" height="2em"/>
-          <text y="140" x="273" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
-            {% placeholder office_518 %}</text>
-        </g>
-	</g>
-	<g>
-		<rect x="345.5" y="10.141" class="s5t16" width="38.25" height="77.75"/>
-	</g>
-    <g id="Слой514">
-        <rect x="345.5" y="10.141" class="s5t00" width="38.25" height="77.75"/>
-        <g class="tooltip css" transform="translate(50,50)">
-          <rect class="txt" x="250" y="0" width="12em" height="2em"/>
-          <text y="0" x="270" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
-            {% placeholder office_514 %}</text>
-        </g>
-    </g>
-	<g>
-		<rect x="309" y="10.187" class="s5t16" width="33.875" height="77.75"/>
-	</g>
-    <g id="Слой513">
-        <rect x="309" y="10.187" class="s5t00" width="33.875" height="77.75"/>
-        <g class="tooltip css" transform="translate(50,50)">
-          <rect class="txt" x="200" y="0" width="12em" height="2em"/>
-          <text y="0" x="220" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
-            {% placeholder office_513 %}</text>
-        </g>
-    </g>
-	<g>
-		<rect x="269.875" y="10.286" class="s5t16" width="36.75" height="77.75"/>
-	</g>
-    <g id="Слой512">
-        <rect x="269.875" y="10.286" class="s5t00" width="36.75" height="77.75"/>
-        <g class="tooltip css" transform="translate(50,50)">
-          <rect class="txt" x="170" y="0" width="12em" height="2em"/>
-          <text y="0" x="190" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
-            {% placeholder office_512 %}</text>
-        </g>
-    </g>
-	<g>
-		<rect x="216.646" y="9.993" class="s5t16" width="50.833" height="77.75"/>
-	</g>
-    <g id="Слой511">
-        <rect x="216.646" y="9.993" class="s5t00" width="50.833" height="77.75"/>
-        <g class="tooltip css" transform="translate(50,50)">
-          <rect class="txt" x="120" y="0" width="12em" height="2em"/>
-          <text y="0" x="140" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
-            {% placeholder office_511 %}</text>
-        </g>
-    </g>
-    <g>
-        <polyline class="s5t16" points="162.813,9.868 214.688,10.118 214.688,87.868 195.188,87.868 195.188,55.368 162.813,55.368
-		162.813,9.868 	"/>
-    </g>
-    <g id="Слой510">
-        <polyline class="s5t00{{ instance.news.id }}" points="162.813,9.868 214.688,10.118 214.688,87.868 195.188,87.868 195.188,55.368 162.813,55.368
-		162.813,9.868 	"/>
-        <g class="tooltip css" transform="translate(50,50)">
-          <rect class="txt" x="70" y="0" width="12em" height="2em"/>
-          <text y="0" x="90" dx="50" dy="15" text-anchor="middle" style="font-family: 'Exo 2', sans-serif; font-size: 6pt;">
-            {% placeholder office_510 %}</text>
-        </g>
-	</g>
+	<rect x="350.582" y="193" class="s5t0" width="44.872" height="16.687"/>
+	<text transform="matrix(1 0 0 1 350.5811 198.6797)" class="s5t28 s5t11 s5t29">136,9 м</text>
+	<text transform="matrix(0.583 0 0 0.583 375.4605 196.0156)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="49.642" y="191.676" class="s5t0" width="44.872" height="16.687"/>
+	<text transform="matrix(1 0 0 1 49.6417 197.3558)" class="s5t28 s5t11 s5t29">52,8 м</text>
+	<text transform="matrix(0.583 0 0 0.583 70.4171 194.6917)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="175.668" y="43.906" class="s5t0" width="44.872" height="16.687"/>
+	<text transform="matrix(1 0 0 1 175.6677 49.5859)" class="s5t28 s5t11 s5t29">18,6 м</text>
+	<text transform="matrix(0.583 0 0 0.583 196.4431 46.9219)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="229.917" y="45.236" class="s5t0" width="44.872" height="16.687"/>
+	<text transform="matrix(1 0 0 1 229.9161 50.9162)" class="s5t28 s5t11 s5t29">26,6 м</text>
+	<text transform="matrix(0.583 0 0 0.583 250.6915 48.2521)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="278.786" y="45.236" class="s5t0" width="44.872" height="16.687"/>
+	<text transform="matrix(1 0 0 1 278.7853 50.9162)" class="s5t28 s5t11 s5t29">19 м</text>
+	<text transform="matrix(0.583 0 0 0.583 293.8009 48.2521)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="313.902" y="45.236" class="s5t0" width="38.806" height="14.432"/>
+	<text transform="matrix(1 0 0 1 313.9025 50.9162)" class="s5t28 s5t11 s5t29">17,3 м</text>
+	<text transform="matrix(0.583 0 0 0.583 334.6779 48.2521)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="352.756" y="45.187" class="s5t0" width="38.806" height="14.432"/>
+	<text transform="matrix(1 0 0 1 352.7566 50.8671)" class="s5t28 s5t11 s5t29">19,1 м</text>
+	<text transform="matrix(0.583 0 0 0.583 373.532 48.2031)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="392.671" y="45.034" class="s5t0" width="38.806" height="14.432"/>
+	<text transform="matrix(1 0 0 1 392.6719 50.7138)" class="s5t28 s5t11 s5t29">18 м</text>
+	<text transform="matrix(0.583 0 0 0.583 407.6875 48.0497)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="143.5" y="164.187" class="s5t0" width="44.872" height="16.687"/>
+	<text transform="matrix(1 0 0 1 143.4995 169.8672)" class="s5t28 s5t11 s5t29">32,3 м</text>
+	<text transform="matrix(0.583 0 0 0.583 164.2749 167.2031)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="143.875" y="218.927" class="s5t0" width="44.872" height="16.687"/>
+	<text transform="matrix(1 0 0 1 143.8746 224.6063)" class="s5t28 s5t11 s5t29">21,1 м</text>
+	<text transform="matrix(0.583 0 0 0.583 164.6499 221.9422)" class="s5t28 s5t30 s5t29">2</text>
+	<rect x="222.897" y="191.676" class="s5t0" width="44.872" height="16.687"/>
+	<text transform="matrix(1 0 0 1 222.8969 197.3558)" class="s5t28 s5t11 s5t29">51,6 м</text>
+	<text transform="matrix(0.583 0 0 0.583 243.6723 194.6917)" class="s5t28 s5t30 s5t29">2</text>
 </g>
 </svg>

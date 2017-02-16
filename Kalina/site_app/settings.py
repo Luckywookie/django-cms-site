@@ -203,6 +203,7 @@ CMS_TEMPLATES = (
     ('sidebar_right.html', 'Sidebar Right'),
     ('Kalina_base.html', 'Home Page'),
     ('Kalina_news.html', 'News Page'),
+    ('Kalina_gallery.html', 'Gallery Page'),
 )
 
 CMS_PERMISSION = True
@@ -243,3 +244,10 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters'
 )
+
+ALDRYN_BOOTSTRAP3_CAROUSEL_STYLES = [
+    'kalina',
+    'standart',
+]
+
+ALDRYN_BOOTSTRAP3_GRID_SIZE = 12

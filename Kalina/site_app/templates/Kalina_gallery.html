@@ -1,0 +1,31 @@
+{% extends "Kalina_base.html" %}
+{% load cms_tags menu_tags sekizai_tags %}
+        {% block style_js %}
+            {% load staticfiles %}
+            <link href="{% static 'css/bootstrap.css' %}" rel=stylesheet>
+            <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+            <link href="{% static 'css/base_css.css' %}" rel=stylesheet>
+
+            <link rel="stylesheet" href="{% static 'css/flexslider.css' %}"/>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+            <script type="text/javascript" src="{% static 'js/jquery.flexslider.js' %}"></script>
+            <script type="text/javascript" src="{% static 'js/modernizr.js' %}"></script>
+            <script type="text/javascript" src="{% static 'js/jquery.mousewheel.js' %}"></script>
+        {% endblock style_js %}
+    {% cms_toolbar %}
+    {% block content %}
+
+        {% placeholder gallery %}
+
+    <script>
+    $(window).load(function() {
+         $('.flexslider').flexslider({
+         animation: "slide",
+         controlNav: "thumbnails"
+         });
+    });
+    </script>
+    {% endblock content %}
+

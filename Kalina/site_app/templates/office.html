@@ -1,0 +1,7 @@
+{% load cms_tags %}
+Офис {{ instance.officeitem.number }} -
+{% if instance.is_free %}
+    Свободен
+{% else %}
+    Занят
+{% endif %}

@@ -5,7 +5,7 @@ from django.conf import settings
 from cms.plugin_base import CMSPluginBase
 from cms.plugin_pool import plugin_pool
 
-from .models import OfficeItem, OfficeLink, OfficeFloorLink
+from .models import OfficeItem, OfficeLink
 from .forms import ItemsForm
 
 
@@ -38,7 +38,7 @@ class OfficePlugin(CMSPluginBase):
 #         })
         return context
 
-plugin_pool.register_plugin(OfficePlugin)
+# plugin_pool.register_plugin(OfficePlugin)
 
 
 class OfficeLinksPlugin(CMSPluginBase):
@@ -52,16 +52,3 @@ class OfficeLinksPlugin(CMSPluginBase):
         return context
 
 plugin_pool.register_plugin(OfficeLinksPlugin)
-
-
-class OfficeFloorPlugin(CMSPluginBase):
-    model = OfficeFloorLink
-    name = _('OfficeFloorLink')
-    render_template = 'svg_base.html'
-    child_classes = ['']
-
-    def render(self, context, instance, placeholder):
-        context.update({'instance': instance})
-        return context
-
-plugin_pool.register_plugin(OfficeFloorPlugin)

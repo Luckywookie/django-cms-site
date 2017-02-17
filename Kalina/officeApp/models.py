@@ -32,5 +32,5 @@ class OfficeLink(CMSPlugin):
  #       self.news = oldinstance.news.all()
 
 
-class OfficeFloorLink(CMSPlugin):
-    office = models.ForeignKey(OfficeItem, verbose_name="Office")
+# class OfficeFloorLink(CMSPlugin):
+#     office = models.ForeignKey(OfficeItem, verbose_name="Office")

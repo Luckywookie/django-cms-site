@@ -197,10 +197,7 @@ CMS_LANGUAGES = {
 }
 
 CMS_TEMPLATES = (
-    ## Customize this
-    ('fullwidth.html', 'Fullwidth'),
-    ('sidebar_left.html', 'Sidebar Left'),
-    ('sidebar_right.html', 'Sidebar Right'),
+    # Customize this
     ('Kalina_base.html', 'Home Page'),
     ('Kalina_news.html', 'News Page'),
     ('Kalina_gallery.html', 'Gallery Page'),

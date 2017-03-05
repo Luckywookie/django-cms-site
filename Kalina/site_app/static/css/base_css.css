@@ -1,3 +1,9 @@
+.flexslider .slides img {
+    padding: 7px;
+    border: 1px solid lightgrey;
+}
+
+
 .img-build {
     width: 100%;
 }
@@ -351,3 +357,13 @@ h2 a{
     border: 1px solid lightgray;
     margin-left: 10px;
 }
+
+.slider-col{
+    margin: auto;
+    float: none;
+}
+
+@font-face {
+    font-family: flexslider-icon; /* Гарнитура шрифта */
+    src: url(../fonts/flexslider-icon.ttf); /* Путь к файлу со шрифтом */
+   }

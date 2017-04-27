@@ -1,3 +1,12 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+margin-bottom: 50px !important;
+}
+
 .flexslider .slides img {
     padding: 7px;
     border: 1px solid lightgrey;
@@ -168,7 +177,7 @@ li.active-menu a{
 }
 
 .desc_row {
-    height: 200px;
+    height: 250px;
 }
 
 .desc_row button{
@@ -227,10 +236,18 @@ li.active-menu a{
     text-align: center;
 /*    width: 75%;*/
 }
-
+/*
 #footer {
     height: 50px;
     text-align: center;
+}*/
+
+#footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
 }
 
 .my-btn {

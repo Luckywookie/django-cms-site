@@ -1,0 +1,8 @@
+{% load cms_tags %}
+{% for item in instance.office %}
+    {% if instance.office.floor == '5' %}
+        OK
+    {% else %}
+        Занят
+    {% endif %}
+{% endfor %}
